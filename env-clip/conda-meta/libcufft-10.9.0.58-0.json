@@ -1,0 +1,60 @@
+{
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/nvidia/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/home/jacky/miniconda3/pkgs/libcufft-10.9.0.58-0",
+  "files": [
+    "lib/libcufft.so.10",
+    "lib/libcufft.so.10.9.0.58",
+    "lib/libcufftw.so.10",
+    "lib/libcufftw.so.10.9.0.58"
+  ],
+  "fn": "libcufft-10.9.0.58-0.tar.bz2",
+  "link": {
+    "source": "/home/jacky/miniconda3/pkgs/libcufft-10.9.0.58-0",
+    "type": 1
+  },
+  "md5": "dbb21687334ce5f8e6a233cb18ee406b",
+  "name": "libcufft",
+  "package_tarball_full_path": "/home/jacky/miniconda3/pkgs/libcufft-10.9.0.58-0",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libcufft.so.10",
+        "path_type": "softlink",
+        "sha256": "334a5f3ee7c6a3cc830b86bd882177c49f92b5dbf801bde53537456155cd2fb2",
+        "size_in_bytes": 279167296
+      },
+      {
+        "_path": "lib/libcufft.so.10.9.0.58",
+        "path_type": "hardlink",
+        "sha256": "334a5f3ee7c6a3cc830b86bd882177c49f92b5dbf801bde53537456155cd2fb2",
+        "sha256_in_prefix": "334a5f3ee7c6a3cc830b86bd882177c49f92b5dbf801bde53537456155cd2fb2",
+        "size_in_bytes": 279167296
+      },
+      {
+        "_path": "lib/libcufftw.so.10",
+        "path_type": "softlink",
+        "sha256": "5533242a7702410015664276f043f812fe526cad37db37013213a6b7d66ad859",
+        "size_in_bytes": 1627056
+      },
+      {
+        "_path": "lib/libcufftw.so.10.9.0.58",
+        "path_type": "hardlink",
+        "sha256": "5533242a7702410015664276f043f812fe526cad37db37013213a6b7d66ad859",
+        "sha256_in_prefix": "5533242a7702410015664276f043f812fe526cad37db37013213a6b7d66ad859",
+        "size_in_bytes": 1627056
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "3d9d93773d69b5826cd61c93333da45f7efd3a3aa09164effc9562eb7039cc8b",
+  "size": 149741913,
+  "subdir": "linux-64",
+  "timestamp": 1661545628099,
+  "url": "https://conda.anaconda.org/nvidia/linux-64/libcufft-10.9.0.58-0.tar.bz2",
+  "version": "10.9.0.58"
+}

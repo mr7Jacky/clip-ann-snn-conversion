@@ -1,0 +1,247 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<4.0",
+    "wcwidth >=0.2.5"
+  ],
+  "extracted_package_dir": "/home/jacky/miniconda3/pkgs/ftfy-6.1.1-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.10/site-packages/CHANGELOG.md",
+    "lib/python3.10/site-packages/README.md",
+    "lib/python3.10/site-packages/ftfy-6.1.1.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/ftfy-6.1.1.dist-info/LICENSE.txt",
+    "lib/python3.10/site-packages/ftfy-6.1.1.dist-info/METADATA",
+    "lib/python3.10/site-packages/ftfy-6.1.1.dist-info/RECORD",
+    "lib/python3.10/site-packages/ftfy-6.1.1.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/ftfy-6.1.1.dist-info/WHEEL",
+    "lib/python3.10/site-packages/ftfy-6.1.1.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/ftfy-6.1.1.dist-info/entry_points.txt",
+    "lib/python3.10/site-packages/ftfy/__init__.py",
+    "lib/python3.10/site-packages/ftfy/bad_codecs/__init__.py",
+    "lib/python3.10/site-packages/ftfy/bad_codecs/sloppy.py",
+    "lib/python3.10/site-packages/ftfy/bad_codecs/utf8_variants.py",
+    "lib/python3.10/site-packages/ftfy/badness.py",
+    "lib/python3.10/site-packages/ftfy/chardata.py",
+    "lib/python3.10/site-packages/ftfy/cli.py",
+    "lib/python3.10/site-packages/ftfy/fixes.py",
+    "lib/python3.10/site-packages/ftfy/formatting.py",
+    "lib/python3.10/site-packages/ftfy/py.typed",
+    "lib/python3.10/site-packages/ftfy/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/ftfy/bad_codecs/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/ftfy/bad_codecs/__pycache__/sloppy.cpython-310.pyc",
+    "lib/python3.10/site-packages/ftfy/bad_codecs/__pycache__/utf8_variants.cpython-310.pyc",
+    "lib/python3.10/site-packages/ftfy/__pycache__/badness.cpython-310.pyc",
+    "lib/python3.10/site-packages/ftfy/__pycache__/chardata.cpython-310.pyc",
+    "lib/python3.10/site-packages/ftfy/__pycache__/cli.cpython-310.pyc",
+    "lib/python3.10/site-packages/ftfy/__pycache__/fixes.cpython-310.pyc",
+    "lib/python3.10/site-packages/ftfy/__pycache__/formatting.cpython-310.pyc",
+    "bin/ftfy"
+  ],
+  "fn": "ftfy-6.1.1-pyhd8ed1ab_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/jacky/miniconda3/pkgs/ftfy-6.1.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "8112acb97be37967accbbe75436b62d7",
+  "name": "ftfy",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/jacky/miniconda3/pkgs/ftfy-6.1.1-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/CHANGELOG.md",
+        "path_type": "hardlink",
+        "sha256": "e1642a95faa5be74923c9650475114c880f9322781843139ae755fb06abc0656",
+        "sha256_in_prefix": "e1642a95faa5be74923c9650475114c880f9322781843139ae755fb06abc0656",
+        "size_in_bytes": 21718
+      },
+      {
+        "_path": "site-packages/README.md",
+        "path_type": "hardlink",
+        "sha256": "4d0e01e11a39fb255ce9727584885dc448349cfa9520f18a2fc3bca52da2f110",
+        "sha256_in_prefix": "4d0e01e11a39fb255ce9727584885dc448349cfa9520f18a2fc3bca52da2f110",
+        "size_in_bytes": 5523
+      },
+      {
+        "_path": "site-packages/ftfy-6.1.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/ftfy-6.1.1.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "0228ed7b72a62934309a39f5900b4d2e693e0ead88f54e459b36328243c3be63",
+        "sha256_in_prefix": "0228ed7b72a62934309a39f5900b4d2e693e0ead88f54e459b36328243c3be63",
+        "size_in_bytes": 1094
+      },
+      {
+        "_path": "site-packages/ftfy-6.1.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "e54f50ad940f519498e1a0569a41678bd87e0f942d2ae39edc05b03d4ec3ce11",
+        "sha256_in_prefix": "e54f50ad940f519498e1a0569a41678bd87e0f942d2ae39edc05b03d4ec3ce11",
+        "size_in_bytes": 6112
+      },
+      {
+        "_path": "site-packages/ftfy-6.1.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "901f01e3b45860c4324497053d3a8d714a199e95f420ffb3fc789816d6dbd235",
+        "sha256_in_prefix": "901f01e3b45860c4324497053d3a8d714a199e95f420ffb3fc789816d6dbd235",
+        "size_in_bytes": 2059
+      },
+      {
+        "_path": "site-packages/ftfy-6.1.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/ftfy-6.1.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "0c0f3afe1e10c30cc6791a33eb6a35b2f62de641845e9a144ee4edc33a136f7d",
+        "sha256_in_prefix": "0c0f3afe1e10c30cc6791a33eb6a35b2f62de641845e9a144ee4edc33a136f7d",
+        "size_in_bytes": 83
+      },
+      {
+        "_path": "site-packages/ftfy-6.1.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "64469119304ea153fddb6870786fb5f0e1ed525e16410a843e285c9659727029",
+        "sha256_in_prefix": "64469119304ea153fddb6870786fb5f0e1ed525e16410a843e285c9659727029",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/ftfy-6.1.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "37c7e5bf433709d8345f9eaf9543dded1fc276f4c6efa0bca4a86b0d2f58b2e8",
+        "sha256_in_prefix": "37c7e5bf433709d8345f9eaf9543dded1fc276f4c6efa0bca4a86b0d2f58b2e8",
+        "size_in_bytes": 38
+      },
+      {
+        "_path": "site-packages/ftfy/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a59ceb37aa5952d64fbb6672db6eac43b865512c78d1799da1f6d180ff4bdec2",
+        "sha256_in_prefix": "a59ceb37aa5952d64fbb6672db6eac43b865512c78d1799da1f6d180ff4bdec2",
+        "size_in_bytes": 27653
+      },
+      {
+        "_path": "site-packages/ftfy/bad_codecs/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "90d0c95eb4fb659824e56646e332168248a7236ed44d72ebb9b3867eb164ddd7",
+        "sha256_in_prefix": "90d0c95eb4fb659824e56646e332168248a7236ed44d72ebb9b3867eb164ddd7",
+        "size_in_bytes": 3234
+      },
+      {
+        "_path": "site-packages/ftfy/bad_codecs/sloppy.py",
+        "path_type": "hardlink",
+        "sha256": "18ef05f5936665b1b1b2feb3a5fa50438fdba476b0018e295f78a51868ad5430",
+        "sha256_in_prefix": "18ef05f5936665b1b1b2feb3a5fa50438fdba476b0018e295f78a51868ad5430",
+        "size_in_bytes": 6694
+      },
+      {
+        "_path": "site-packages/ftfy/bad_codecs/utf8_variants.py",
+        "path_type": "hardlink",
+        "sha256": "4eca5dde9ae564a4001685bf3dc13bb032b9a4cb13709494b8ed0804e081bf1b",
+        "sha256_in_prefix": "4eca5dde9ae564a4001685bf3dc13bb032b9a4cb13709494b8ed0804e081bf1b",
+        "size_in_bytes": 9590
+      },
+      {
+        "_path": "site-packages/ftfy/badness.py",
+        "path_type": "hardlink",
+        "sha256": "74f94002336049688a42dd04228a3a85f2e41404faab20781dc8ae844375cdcc",
+        "sha256_in_prefix": "74f94002336049688a42dd04228a3a85f2e41404faab20781dc8ae844375cdcc",
+        "size_in_bytes": 14457
+      },
+      {
+        "_path": "site-packages/ftfy/chardata.py",
+        "path_type": "hardlink",
+        "sha256": "e3729662b8e784d522f86498c249dd07afcfb67a20dba70df4fa1e927fce6b50",
+        "sha256_in_prefix": "e3729662b8e784d522f86498c249dd07afcfb67a20dba70df4fa1e927fce6b50",
+        "size_in_bytes": 11833
+      },
+      {
+        "_path": "site-packages/ftfy/cli.py",
+        "path_type": "hardlink",
+        "sha256": "57c76c106e660799c8ea5b2e4e2aee653ce6b9d5eab7f18bd81414315b9ea77d",
+        "sha256_in_prefix": "57c76c106e660799c8ea5b2e4e2aee653ce6b9d5eab7f18bd81414315b9ea77d",
+        "size_in_bytes": 4116
+      },
+      {
+        "_path": "site-packages/ftfy/fixes.py",
+        "path_type": "hardlink",
+        "sha256": "b0ce20187077dc1f6b0ee17a702568f9ece35fa1dd83383dcfdf41e7a4278933",
+        "sha256_in_prefix": "b0ce20187077dc1f6b0ee17a702568f9ece35fa1dd83383dcfdf41e7a4278933",
+        "size_in_bytes": 17755
+      },
+      {
+        "_path": "site-packages/ftfy/formatting.py",
+        "path_type": "hardlink",
+        "sha256": "3e4abf5dfd2b6d19ab0745a10ef6e87de572f76c937be388ba0e475b850b5cb7",
+        "sha256_in_prefix": "3e4abf5dfd2b6d19ab0745a10ef6e87de572f76c937be388ba0e475b850b5cb7",
+        "size_in_bytes": 5798
+      },
+      {
+        "_path": "site-packages/ftfy/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ftfy/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ftfy/bad_codecs/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ftfy/bad_codecs/__pycache__/sloppy.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ftfy/bad_codecs/__pycache__/utf8_variants.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ftfy/__pycache__/badness.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ftfy/__pycache__/chardata.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ftfy/__pycache__/cli.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ftfy/__pycache__/fixes.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/ftfy/__pycache__/formatting.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/ftfy",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "ftfy",
+  "sha256": "76f22f9bea6d52f10dc13c262c0940773f015802ee90a5e3c70c467d3ecd5806",
+  "size": 58181,
+  "subdir": "noarch",
+  "timestamp": 1647200817205,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/ftfy-6.1.1-pyhd8ed1ab_0.tar.bz2",
+  "version": "6.1.1"
+}

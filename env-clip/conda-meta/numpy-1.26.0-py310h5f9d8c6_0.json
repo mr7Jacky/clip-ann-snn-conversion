@@ -1,0 +1,42 @@
+{
+  "build": "py310h5f9d8c6_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "blas 1.0 mkl",
+    "libgcc-ng >=11.2.0",
+    "libstdcxx-ng >=11.2.0",
+    "mkl >=2023.1.0,<2024.0a0",
+    "mkl-service >=2.3.0,<3.0a0",
+    "mkl_fft",
+    "mkl_random",
+    "numpy-base 1.26.0 py310hb5e798b_0",
+    "python >=3.10,<3.11.0a0"
+  ],
+  "extracted_package_dir": "/home/jacky/miniconda3/pkgs/numpy-1.26.0-py310h5f9d8c6_0",
+  "files": [],
+  "fn": "numpy-1.26.0-py310h5f9d8c6_0.conda",
+  "legacy_bz2_md5": "6667bf70e6804c85ec9958527fee2db9",
+  "legacy_bz2_size": 9531,
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/jacky/miniconda3/pkgs/numpy-1.26.0-py310h5f9d8c6_0",
+    "type": 1
+  },
+  "md5": "481a6f60c6e6e0a65c379d9a81741450",
+  "name": "numpy",
+  "package_tarball_full_path": "/home/jacky/miniconda3/pkgs/numpy-1.26.0-py310h5f9d8c6_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c2187d2ca8d65804634bcd6b06338ab8f322c269b47fd882e21af80909519ef9",
+  "size": 10015,
+  "subdir": "linux-64",
+  "timestamp": 1695832299743,
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/numpy-1.26.0-py310h5f9d8c6_0.conda",
+  "version": "1.26.0"
+}

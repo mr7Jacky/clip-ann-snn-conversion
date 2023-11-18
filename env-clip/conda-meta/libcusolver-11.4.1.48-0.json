@@ -1,0 +1,60 @@
+{
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/nvidia/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/home/jacky/miniconda3/pkgs/libcusolver-11.4.1.48-0",
+  "files": [
+    "lib/libcusolver.so.11",
+    "lib/libcusolver.so.11.4.1.48",
+    "lib/libcusolverMg.so.11",
+    "lib/libcusolverMg.so.11.4.1.48"
+  ],
+  "fn": "libcusolver-11.4.1.48-0.tar.bz2",
+  "link": {
+    "source": "/home/jacky/miniconda3/pkgs/libcusolver-11.4.1.48-0",
+    "type": 1
+  },
+  "md5": "a497123295be4e0bd221da5bf215f8b8",
+  "name": "libcusolver",
+  "package_tarball_full_path": "/home/jacky/miniconda3/pkgs/libcusolver-11.4.1.48-0",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libcusolver.so.11",
+        "path_type": "softlink",
+        "sha256": "c2a822f6536a40e0e550cad78cce319c1651ce59cdd8a37a2e70b58beba917a5",
+        "size_in_bytes": 302736296
+      },
+      {
+        "_path": "lib/libcusolver.so.11.4.1.48",
+        "path_type": "hardlink",
+        "sha256": "c2a822f6536a40e0e550cad78cce319c1651ce59cdd8a37a2e70b58beba917a5",
+        "sha256_in_prefix": "c2a822f6536a40e0e550cad78cce319c1651ce59cdd8a37a2e70b58beba917a5",
+        "size_in_bytes": 302736296
+      },
+      {
+        "_path": "lib/libcusolverMg.so.11",
+        "path_type": "softlink",
+        "sha256": "7eb95c499b8b145f4f6b15db36a20ec36bfadae37b40244d4e1894a2c0458d67",
+        "size_in_bytes": 184721808
+      },
+      {
+        "_path": "lib/libcusolverMg.so.11.4.1.48",
+        "path_type": "hardlink",
+        "sha256": "7eb95c499b8b145f4f6b15db36a20ec36bfadae37b40244d4e1894a2c0458d67",
+        "sha256_in_prefix": "7eb95c499b8b145f4f6b15db36a20ec36bfadae37b40244d4e1894a2c0458d67",
+        "size_in_bytes": 184721808
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d04ae207677639c79ef2f9e90f92186e61b82ccc26632bac87ddc9e607ac3173",
+  "size": 101143771,
+  "subdir": "linux-64",
+  "timestamp": 1661488678855,
+  "url": "https://conda.anaconda.org/nvidia/linux-64/libcusolver-11.4.1.48-0.tar.bz2",
+  "version": "11.4.1.48"
+}

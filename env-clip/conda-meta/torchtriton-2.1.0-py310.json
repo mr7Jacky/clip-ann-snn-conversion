@@ -1,0 +1,845 @@
+{
+  "build": "py310",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/pytorch/linux-64",
+  "constrains": [],
+  "depends": [
+    "filelock",
+    "python >=3.10,<3.11.0a0",
+    "pytorch"
+  ],
+  "extracted_package_dir": "/home/jacky/miniconda3/pkgs/torchtriton-2.1.0-py310",
+  "files": [
+    "lib/python3.10/site-packages/triton-2.1.0-py3.10.egg-info/PKG-INFO",
+    "lib/python3.10/site-packages/triton-2.1.0-py3.10.egg-info/SOURCES.txt",
+    "lib/python3.10/site-packages/triton-2.1.0-py3.10.egg-info/dependency_links.txt",
+    "lib/python3.10/site-packages/triton-2.1.0-py3.10.egg-info/not-zip-safe",
+    "lib/python3.10/site-packages/triton-2.1.0-py3.10.egg-info/requires.txt",
+    "lib/python3.10/site-packages/triton-2.1.0-py3.10.egg-info/top_level.txt",
+    "lib/python3.10/site-packages/triton/_C/libtriton.so",
+    "lib/python3.10/site-packages/triton/__init__.py",
+    "lib/python3.10/site-packages/triton/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/__pycache__/testing.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/common/__init__.py",
+    "lib/python3.10/site-packages/triton/common/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/common/__pycache__/backend.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/common/__pycache__/build.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/common/backend.py",
+    "lib/python3.10/site-packages/triton/common/build.py",
+    "lib/python3.10/site-packages/triton/compiler/__init__.py",
+    "lib/python3.10/site-packages/triton/compiler/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/compiler/__pycache__/code_generator.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/compiler/__pycache__/compiler.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/compiler/__pycache__/errors.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/compiler/__pycache__/make_launcher.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/compiler/code_generator.py",
+    "lib/python3.10/site-packages/triton/compiler/compiler.py",
+    "lib/python3.10/site-packages/triton/compiler/errors.py",
+    "lib/python3.10/site-packages/triton/compiler/make_launcher.py",
+    "lib/python3.10/site-packages/triton/interpreter/__init__.py",
+    "lib/python3.10/site-packages/triton/interpreter/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/interpreter/__pycache__/core.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/interpreter/__pycache__/interpreter.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/interpreter/__pycache__/memory_map.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/interpreter/__pycache__/tl_lang.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/interpreter/__pycache__/torch_wrapper.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/interpreter/core.py",
+    "lib/python3.10/site-packages/triton/interpreter/interpreter.py",
+    "lib/python3.10/site-packages/triton/interpreter/memory_map.py",
+    "lib/python3.10/site-packages/triton/interpreter/tl_lang.py",
+    "lib/python3.10/site-packages/triton/interpreter/torch_wrapper.py",
+    "lib/python3.10/site-packages/triton/language/__init__.py",
+    "lib/python3.10/site-packages/triton/language/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/language/__pycache__/core.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/language/__pycache__/math.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/language/__pycache__/random.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/language/__pycache__/semantic.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/language/__pycache__/standard.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/language/core.py",
+    "lib/python3.10/site-packages/triton/language/extra/__init__.py",
+    "lib/python3.10/site-packages/triton/language/extra/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/language/extra/__pycache__/cuda.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/language/extra/cuda.bc",
+    "lib/python3.10/site-packages/triton/language/extra/cuda.py",
+    "lib/python3.10/site-packages/triton/language/math.py",
+    "lib/python3.10/site-packages/triton/language/random.py",
+    "lib/python3.10/site-packages/triton/language/semantic.py",
+    "lib/python3.10/site-packages/triton/language/standard.py",
+    "lib/python3.10/site-packages/triton/ops/__init__.py",
+    "lib/python3.10/site-packages/triton/ops/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/ops/__pycache__/cross_entropy.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/ops/__pycache__/flash_attention.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/ops/__pycache__/matmul.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/ops/__pycache__/matmul_perf_model.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/ops/blocksparse/__init__.py",
+    "lib/python3.10/site-packages/triton/ops/blocksparse/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/ops/blocksparse/__pycache__/matmul.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/ops/blocksparse/__pycache__/softmax.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/ops/blocksparse/matmul.py",
+    "lib/python3.10/site-packages/triton/ops/blocksparse/softmax.py",
+    "lib/python3.10/site-packages/triton/ops/cross_entropy.py",
+    "lib/python3.10/site-packages/triton/ops/flash_attention.py",
+    "lib/python3.10/site-packages/triton/ops/matmul.py",
+    "lib/python3.10/site-packages/triton/ops/matmul_perf_model.py",
+    "lib/python3.10/site-packages/triton/runtime/__init__.py",
+    "lib/python3.10/site-packages/triton/runtime/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/runtime/__pycache__/autotuner.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/runtime/__pycache__/cache.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/runtime/__pycache__/driver.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/runtime/__pycache__/errors.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/runtime/__pycache__/jit.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/runtime/autotuner.py",
+    "lib/python3.10/site-packages/triton/runtime/backends/cuda.c",
+    "lib/python3.10/site-packages/triton/runtime/backends/hip.c",
+    "lib/python3.10/site-packages/triton/runtime/cache.py",
+    "lib/python3.10/site-packages/triton/runtime/driver.py",
+    "lib/python3.10/site-packages/triton/runtime/errors.py",
+    "lib/python3.10/site-packages/triton/runtime/jit.py",
+    "lib/python3.10/site-packages/triton/testing.py",
+    "lib/python3.10/site-packages/triton/third_party/cuda/bin/ptxas",
+    "lib/python3.10/site-packages/triton/third_party/cuda/include/cuda.h",
+    "lib/python3.10/site-packages/triton/third_party/cuda/lib/libdevice.10.bc",
+    "lib/python3.10/site-packages/triton/tools/__init__.py",
+    "lib/python3.10/site-packages/triton/tools/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/tools/__pycache__/build_extern.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/tools/__pycache__/compile.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/tools/__pycache__/disasm.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/tools/__pycache__/link.cpython-310.pyc",
+    "lib/python3.10/site-packages/triton/tools/build_extern.py",
+    "lib/python3.10/site-packages/triton/tools/compile.c",
+    "lib/python3.10/site-packages/triton/tools/compile.h",
+    "lib/python3.10/site-packages/triton/tools/compile.py",
+    "lib/python3.10/site-packages/triton/tools/disasm.py",
+    "lib/python3.10/site-packages/triton/tools/link.py"
+  ],
+  "fn": "torchtriton-2.1.0-py310.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/jacky/miniconda3/pkgs/torchtriton-2.1.0-py310",
+    "type": 1
+  },
+  "md5": "5ef34d1428f3ea5dbe520c67d74048a5",
+  "name": "torchtriton",
+  "package_tarball_full_path": "/home/jacky/miniconda3/pkgs/torchtriton-2.1.0-py310",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/triton-2.1.0-py3.10.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "fa098aca9e3fff3f25dc2f7c08768f60921f688991eb629ddb38435bfc8483a1",
+        "sha256_in_prefix": "fa098aca9e3fff3f25dc2f7c08768f60921f688991eb629ddb38435bfc8483a1",
+        "size_in_bytes": 768
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton-2.1.0-py3.10.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "f1bf686c66f7cf753ed871eeb3381e08a356d7a83070ddb8ae84905b0dff9e8d",
+        "sha256_in_prefix": "f1bf686c66f7cf753ed871eeb3381e08a356d7a83070ddb8ae84905b0dff9e8d",
+        "size_in_bytes": 1693
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton-2.1.0-py3.10.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton-2.1.0-py3.10.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton-2.1.0-py3.10.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "56e1dcd78503242003d05e163ba83821e687497bca12429ea4423c126bfd3fdc",
+        "sha256_in_prefix": "56e1dcd78503242003d05e163ba83821e687497bca12429ea4423c126bfd3fdc",
+        "size_in_bytes": 131
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton-2.1.0-py3.10.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "70b8b9b623481b837a211e7bb3359dc7bfbd0044349620182eb857c40ee751d8",
+        "sha256_in_prefix": "70b8b9b623481b837a211e7bb3359dc7bfbd0044349620182eb857c40ee751d8",
+        "size_in_bytes": 209
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/_C/libtriton.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/torchtriton_1695391690267/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "3b9a69a5339a1845a92b8dcbe9300cc2334ca48dda81569af92218edabccc8de",
+        "sha256_in_prefix": "e63fde96c81c369311e6256514a104d90f863f33cccf3aaa7ebaba9d50f17dd3",
+        "size_in_bytes": 287460392
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3e5bb361d8f5c976f2f89e62b78e75b5b7d448f5d41e625092cbd451658268e5",
+        "sha256_in_prefix": "3e5bb361d8f5c976f2f89e62b78e75b5b7d448f5d41e625092cbd451658268e5",
+        "size_in_bytes": 1230
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ea0d70854f1b58cc41adcb2f98e22043b3d70841b3237fa00293f851da64ca71",
+        "sha256_in_prefix": "ea0d70854f1b58cc41adcb2f98e22043b3d70841b3237fa00293f851da64ca71",
+        "size_in_bytes": 1166
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/__pycache__/testing.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "105ff742ff8ab26ab9c48b8a9cfcb165eb8f5733fffec6a1c24d211d37e63fe4",
+        "sha256_in_prefix": "105ff742ff8ab26ab9c48b8a9cfcb165eb8f5733fffec6a1c24d211d37e63fe4",
+        "size_in_bytes": 13435
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/common/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a227f6ad08c79d75d0a51cf19b9bf29513502f67d03611ef3e8d1768ed33db4f",
+        "sha256_in_prefix": "a227f6ad08c79d75d0a51cf19b9bf29513502f67d03611ef3e8d1768ed33db4f",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/common/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "bdf4a7322b7d1039e6f57c96cdd5b80cca6869ba7c5cc4358bd4a67d915368b4",
+        "sha256_in_prefix": "bdf4a7322b7d1039e6f57c96cdd5b80cca6869ba7c5cc4358bd4a67d915368b4",
+        "size_in_bytes": 269
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/common/__pycache__/backend.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "dfb378473c1614193a887faa63d7948ec4cc7a432d5ce89c525dd447b0d5dd86",
+        "sha256_in_prefix": "dfb378473c1614193a887faa63d7948ec4cc7a432d5ce89c525dd447b0d5dd86",
+        "size_in_bytes": 4342
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/common/__pycache__/build.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "52b6b961a80096fcf337bf73fff9ba419dfc9c904cc8be99671346c7dd5c6de4",
+        "sha256_in_prefix": "52b6b961a80096fcf337bf73fff9ba419dfc9c904cc8be99671346c7dd5c6de4",
+        "size_in_bytes": 3801
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/common/backend.py",
+        "path_type": "hardlink",
+        "sha256": "f2cbf3fb9cede830f2b034478d866cd0f1772010a877c346ce595313ae7b71b2",
+        "sha256_in_prefix": "f2cbf3fb9cede830f2b034478d866cd0f1772010a877c346ce595313ae7b71b2",
+        "size_in_bytes": 3441
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/common/build.py",
+        "path_type": "hardlink",
+        "sha256": "3503228fd15303fce0ce19a7b2258d9bde34a92bdbb0168480dd25b296725810",
+        "sha256_in_prefix": "3503228fd15303fce0ce19a7b2258d9bde34a92bdbb0168480dd25b296725810",
+        "size_in_bytes": 4125
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/compiler/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3b456a5de023e557d9580d1a39fdacc95428214f8368d2434a4f0903b73de786",
+        "sha256_in_prefix": "3b456a5de023e557d9580d1a39fdacc95428214f8368d2434a4f0903b73de786",
+        "size_in_bytes": 188
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/compiler/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2ec07b75720387334776ea1b6dc68e4b3ca7decc6844f5058d848ceea3f8019d",
+        "sha256_in_prefix": "2ec07b75720387334776ea1b6dc68e4b3ca7decc6844f5058d848ceea3f8019d",
+        "size_in_bytes": 332
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/compiler/__pycache__/code_generator.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "eaa58982c683db698b93af676c6024d6ab50b6c5c1e608163a9090a5872067b5",
+        "sha256_in_prefix": "eaa58982c683db698b93af676c6024d6ab50b6c5c1e608163a9090a5872067b5",
+        "size_in_bytes": 39248
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/compiler/__pycache__/compiler.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "480cdab7a8831a512f626b6b8da8a3630d6eb4add2a94d306ecc31e0879f6677",
+        "sha256_in_prefix": "480cdab7a8831a512f626b6b8da8a3630d6eb4add2a94d306ecc31e0879f6677",
+        "size_in_bytes": 17892
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/compiler/__pycache__/errors.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "386c4828a6d07a79d4288a9a79ebca698d7944d151c665caf1e2199f016be70a",
+        "sha256_in_prefix": "386c4828a6d07a79d4288a9a79ebca698d7944d151c665caf1e2199f016be70a",
+        "size_in_bytes": 2239
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/compiler/__pycache__/make_launcher.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e0f0aed0c5c092f5b48937505670bf86556db70b61be0e5829012fbe9c597848",
+        "sha256_in_prefix": "e0f0aed0c5c092f5b48937505670bf86556db70b61be0e5829012fbe9c597848",
+        "size_in_bytes": 12456
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/compiler/code_generator.py",
+        "path_type": "hardlink",
+        "sha256": "9c510edc05ea721aa902d2b60cee9a3ea44a093347cb68e9e60cc8812fefc281",
+        "sha256_in_prefix": "9c510edc05ea721aa902d2b60cee9a3ea44a093347cb68e9e60cc8812fefc281",
+        "size_in_bytes": 49833
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/compiler/compiler.py",
+        "path_type": "hardlink",
+        "sha256": "848afa13ac8a97d430eadae4bead6b732ffa75275c14a6393ad08cedde0b3ea4",
+        "sha256_in_prefix": "848afa13ac8a97d430eadae4bead6b732ffa75275c14a6393ad08cedde0b3ea4",
+        "size_in_bytes": 22917
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/compiler/errors.py",
+        "path_type": "hardlink",
+        "sha256": "3e2aae3311ee1dac91bdd1f784c5d24253a70ecc0add318d584341dbd617fc55",
+        "sha256_in_prefix": "3e2aae3311ee1dac91bdd1f784c5d24253a70ecc0add318d584341dbd617fc55",
+        "size_in_bytes": 1666
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/compiler/make_launcher.py",
+        "path_type": "hardlink",
+        "sha256": "dff8cb165dd2b0ea8b58cfa0956fb0e83039da85535e2972f4aab9ccf9e046c1",
+        "sha256_in_prefix": "dff8cb165dd2b0ea8b58cfa0956fb0e83039da85535e2972f4aab9ccf9e046c1",
+        "size_in_bytes": 11854
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/interpreter/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/interpreter/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2326cb129731ef489b4444eb5aa686d060352ed04ac8aa66029ae141640aef1a",
+        "sha256_in_prefix": "2326cb129731ef489b4444eb5aa686d060352ed04ac8aa66029ae141640aef1a",
+        "size_in_bytes": 152
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/interpreter/__pycache__/core.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "8daf05163c34ba9e5967b30c60b49058af8fdd777e795208f64b6aadf9909916",
+        "sha256_in_prefix": "8daf05163c34ba9e5967b30c60b49058af8fdd777e795208f64b6aadf9909916",
+        "size_in_bytes": 472
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/interpreter/__pycache__/interpreter.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "846eb9d644f18c2741293bd0ba6eb579f7ace86a4a6b29120306baaf30b3ef91",
+        "sha256_in_prefix": "846eb9d644f18c2741293bd0ba6eb579f7ace86a4a6b29120306baaf30b3ef91",
+        "size_in_bytes": 7165
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/interpreter/__pycache__/memory_map.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "aecc87ce4d642f170249fb68dec3dc6a25c0f713ddd6558057aef505e73b0478",
+        "sha256_in_prefix": "aecc87ce4d642f170249fb68dec3dc6a25c0f713ddd6558057aef505e73b0478",
+        "size_in_bytes": 3478
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/interpreter/__pycache__/tl_lang.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "eb5faa57a55595c03e675957e94f447a81f6e4b8b8d3fc8fc855b0588c085705",
+        "sha256_in_prefix": "eb5faa57a55595c03e675957e94f447a81f6e4b8b8d3fc8fc855b0588c085705",
+        "size_in_bytes": 20317
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/interpreter/__pycache__/torch_wrapper.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "49116c97ba6530b3271902ee4c2f79533bd919ca50ec5370b204e5d8beeffcf0",
+        "sha256_in_prefix": "49116c97ba6530b3271902ee4c2f79533bd919ca50ec5370b204e5d8beeffcf0",
+        "size_in_bytes": 688
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/interpreter/core.py",
+        "path_type": "hardlink",
+        "sha256": "ce361554095e57711d04c3a131447e7355fd1f7eb5ddfbb5b6d3ac1b99f45604",
+        "sha256_in_prefix": "ce361554095e57711d04c3a131447e7355fd1f7eb5ddfbb5b6d3ac1b99f45604",
+        "size_in_bytes": 150
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/interpreter/interpreter.py",
+        "path_type": "hardlink",
+        "sha256": "473a6fa7801bdb72839c756dd15729b8d73faaa1a97c1e740482b00b97f96cef",
+        "sha256_in_prefix": "473a6fa7801bdb72839c756dd15729b8d73faaa1a97c1e740482b00b97f96cef",
+        "size_in_bytes": 5412
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/interpreter/memory_map.py",
+        "path_type": "hardlink",
+        "sha256": "36f886180b6776142e622b082c443e1bf74a4d40b77d3a825a44b185f12cf405",
+        "sha256_in_prefix": "36f886180b6776142e622b082c443e1bf74a4d40b77d3a825a44b185f12cf405",
+        "size_in_bytes": 3187
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/interpreter/tl_lang.py",
+        "path_type": "hardlink",
+        "sha256": "940e580e2d7859ad4ec177ebc31803361db042bb69231f63b6695051c6549a18",
+        "sha256_in_prefix": "940e580e2d7859ad4ec177ebc31803361db042bb69231f63b6695051c6549a18",
+        "size_in_bytes": 18501
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/interpreter/torch_wrapper.py",
+        "path_type": "hardlink",
+        "sha256": "883d2a6cf9ec47eacc1b46a7309468121203bd0695cc5981b854ca90f9a78ff8",
+        "sha256_in_prefix": "883d2a6cf9ec47eacc1b46a7309468121203bd0695cc5981b854ca90f9a78ff8",
+        "size_in_bytes": 353
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/language/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "057809b4e097fd371f5bec5940663b1bc949aec79f493db84888d57ff8583985",
+        "sha256_in_prefix": "057809b4e097fd371f5bec5940663b1bc949aec79f493db84888d57ff8583985",
+        "size_in_bytes": 3122
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/language/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "6c262d7c83b31401f33599610f284a58d83042a845380fda11b22e1fee971301",
+        "sha256_in_prefix": "6c262d7c83b31401f33599610f284a58d83042a845380fda11b22e1fee971301",
+        "size_in_bytes": 2645
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/language/__pycache__/core.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "6c34222d8b0abf3554507f605d7012df62b2a6f082ad4ff07593c6566c64b894",
+        "sha256_in_prefix": "6c34222d8b0abf3554507f605d7012df62b2a6f082ad4ff07593c6566c64b894",
+        "size_in_bytes": 59010
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/language/__pycache__/math.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e8a2ee9f0d04f97ef773d5acb47e08f9cf394c04e19582ba0ad4cd5734668949",
+        "sha256_in_prefix": "e8a2ee9f0d04f97ef773d5acb47e08f9cf394c04e19582ba0ad4cd5734668949",
+        "size_in_bytes": 33551
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/language/__pycache__/random.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "51f161d2c1832d209eeed28cad4d988fad8f1efc3eb8693058ced7187f740e30",
+        "sha256_in_prefix": "51f161d2c1832d209eeed28cad4d988fad8f1efc3eb8693058ced7187f740e30",
+        "size_in_bytes": 4973
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/language/__pycache__/semantic.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "53e29d6de93ebd742e685c1817bd23523d981c5856e63e9e015c0a2ab8c5b97f",
+        "sha256_in_prefix": "53e29d6de93ebd742e685c1817bd23523d981c5856e63e9e015c0a2ab8c5b97f",
+        "size_in_bytes": 37979
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/language/__pycache__/standard.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "5ce0e9c87bb70e66ef0bb907a314f3a840e69df4a55d5e3d7201ea399d8e13a6",
+        "sha256_in_prefix": "5ce0e9c87bb70e66ef0bb907a314f3a840e69df4a55d5e3d7201ea399d8e13a6",
+        "size_in_bytes": 2503
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/language/core.py",
+        "path_type": "hardlink",
+        "sha256": "b3392a1704c83309ad5832e1dce563a41188415f637ad1e828149f5bc14ca14b",
+        "sha256_in_prefix": "b3392a1704c83309ad5832e1dce563a41188415f637ad1e828149f5bc14ca14b",
+        "size_in_bytes": 62163
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/language/extra/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "cf28658fa328f7f283ec4e6ccc6c48d7c2a8ddbdf5134d3eb35c9b38ce4ace44",
+        "sha256_in_prefix": "cf28658fa328f7f283ec4e6ccc6c48d7c2a8ddbdf5134d3eb35c9b38ce4ace44",
+        "size_in_bytes": 39
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/language/extra/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "729691cebb2e2f21ee14e44440c3885d85389fccdc35935e7631cb80000ce2e1",
+        "sha256_in_prefix": "729691cebb2e2f21ee14e44440c3885d85389fccdc35935e7631cb80000ce2e1",
+        "size_in_bytes": 206
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/language/extra/__pycache__/cuda.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "61b0d595072514dfc3e374b7ed0b7348555a99c574452ab240ddf9693bad3e55",
+        "sha256_in_prefix": "61b0d595072514dfc3e374b7ed0b7348555a99c574452ab240ddf9693bad3e55",
+        "size_in_bytes": 681
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/language/extra/cuda.bc",
+        "path_type": "hardlink",
+        "sha256": "d37c5fa2ad370cae8f7cc4b67e6d3957dd1e8b98e59c3759683ea465f7d011ab",
+        "sha256_in_prefix": "d37c5fa2ad370cae8f7cc4b67e6d3957dd1e8b98e59c3759683ea465f7d011ab",
+        "size_in_bytes": 1808
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/language/extra/cuda.py",
+        "path_type": "hardlink",
+        "sha256": "ed40825df93080b3e997cec5459b17cab1cdeadb74c51a1079e064b1231d8321",
+        "sha256_in_prefix": "ed40825df93080b3e997cec5459b17cab1cdeadb74c51a1079e064b1231d8321",
+        "size_in_bytes": 641
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/language/math.py",
+        "path_type": "hardlink",
+        "sha256": "679e59c9f87adb39fbc4d5f4e59aee325b261844e8c010fd653bea7c7980b030",
+        "sha256_in_prefix": "679e59c9f87adb39fbc4d5f4e59aee325b261844e8c010fd653bea7c7980b030",
+        "size_in_bytes": 75127
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/language/random.py",
+        "path_type": "hardlink",
+        "sha256": "3e326050db35654c32cef3da0538bd9765dcb1dbceb1dae6e3c385e0314e5767",
+        "sha256_in_prefix": "3e326050db35654c32cef3da0538bd9765dcb1dbceb1dae6e3c385e0314e5767",
+        "size_in_bytes": 5569
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/language/semantic.py",
+        "path_type": "hardlink",
+        "sha256": "967ab45d30343430fd4443cca5dc457f083c3d3b9cfe8fb3488155cfcace03f7",
+        "sha256_in_prefix": "967ab45d30343430fd4443cca5dc457f083c3d3b9cfe8fb3488155cfcace03f7",
+        "size_in_bytes": 65087
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/language/standard.py",
+        "path_type": "hardlink",
+        "sha256": "8e973e85adb6ca5107bacafe7f839448ba3b8aeb28df21787138ce4e948caa8d",
+        "sha256_in_prefix": "8e973e85adb6ca5107bacafe7f839448ba3b8aeb28df21787138ce4e948caa8d",
+        "size_in_bytes": 2320
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/ops/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "34be5f848272c0958eb121cc0c0e89be31a14bbc40e3e67a098200411cb51515",
+        "sha256_in_prefix": "34be5f848272c0958eb121cc0c0e89be31a14bbc40e3e67a098200411cb51515",
+        "size_in_bytes": 313
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/ops/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "e015c379a3cc95a05ab807c4e56d26bfa27c5f33ffec138e19d8cc77117e9434",
+        "sha256_in_prefix": "e015c379a3cc95a05ab807c4e56d26bfa27c5f33ffec138e19d8cc77117e9434",
+        "size_in_bytes": 388
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/ops/__pycache__/cross_entropy.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "fb30fabe142f16ca28fa7d2ec1822961bc684d693df08bf96a8f349586835d86",
+        "sha256_in_prefix": "fb30fabe142f16ca28fa7d2ec1822961bc684d693df08bf96a8f349586835d86",
+        "size_in_bytes": 3364
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/ops/__pycache__/flash_attention.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "41a6f917441d994c429e7936cb82ca4000ee6bceb71e48d7c731d93add71b116",
+        "sha256_in_prefix": "41a6f917441d994c429e7936cb82ca4000ee6bceb71e48d7c731d93add71b116",
+        "size_in_bytes": 8192
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/ops/__pycache__/matmul.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "687be1ab11eec60b519c9ba67bde4614c8d45397dae1e2a08e907c9140379a52",
+        "sha256_in_prefix": "687be1ab11eec60b519c9ba67bde4614c8d45397dae1e2a08e907c9140379a52",
+        "size_in_bytes": 5205
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/ops/__pycache__/matmul_perf_model.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3dc8ca7cfbde77872fb405519e6e44d28ba532e328ae004148cad03b6216f5f7",
+        "sha256_in_prefix": "3dc8ca7cfbde77872fb405519e6e44d28ba532e328ae004148cad03b6216f5f7",
+        "size_in_bytes": 4148
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/ops/blocksparse/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e9811540dce2a60402a683bfec1f07edc91a496d8876dd76e38b3b2322d60307",
+        "sha256_in_prefix": "e9811540dce2a60402a683bfec1f07edc91a496d8876dd76e38b3b2322d60307",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/ops/blocksparse/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "c0cae63a2c034cd8d38bec86b8b75ae992310ff6ae5fbb802fb9e110738a4dd0",
+        "sha256_in_prefix": "c0cae63a2c034cd8d38bec86b8b75ae992310ff6ae5fbb802fb9e110738a4dd0",
+        "size_in_bytes": 248
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/ops/blocksparse/__pycache__/matmul.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "7b9362bdba184f8b05d8172ab6f12580f7e8986e5de749df7e60d30fe5d57404",
+        "sha256_in_prefix": "7b9362bdba184f8b05d8172ab6f12580f7e8986e5de749df7e60d30fe5d57404",
+        "size_in_bytes": 10178
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/ops/blocksparse/__pycache__/softmax.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "8266def8af3b2808519ae1c51d3da8887cc100ff7f379382dc8007f159ca1c5c",
+        "sha256_in_prefix": "8266def8af3b2808519ae1c51d3da8887cc100ff7f379382dc8007f159ca1c5c",
+        "size_in_bytes": 5557
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/ops/blocksparse/matmul.py",
+        "path_type": "hardlink",
+        "sha256": "8f663a2bfcab566b3f038b1909a09735fa83f243e2a06e0c033dc07f04c93b18",
+        "sha256_in_prefix": "8f663a2bfcab566b3f038b1909a09735fa83f243e2a06e0c033dc07f04c93b18",
+        "size_in_bytes": 15615
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/ops/blocksparse/softmax.py",
+        "path_type": "hardlink",
+        "sha256": "29c9c1d03c97e83437b20a8b11558f21b0829a5bedb31eb4a582122e80fd4add",
+        "sha256_in_prefix": "29c9c1d03c97e83437b20a8b11558f21b0829a5bedb31eb4a582122e80fd4add",
+        "size_in_bytes": 7905
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/ops/cross_entropy.py",
+        "path_type": "hardlink",
+        "sha256": "1ed338f61bfa8cba195fb9ac1a54043ac35f7b73265f27ed73f3638ff89d99dc",
+        "sha256_in_prefix": "1ed338f61bfa8cba195fb9ac1a54043ac35f7b73265f27ed73f3638ff89d99dc",
+        "size_in_bytes": 3450
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/ops/flash_attention.py",
+        "path_type": "hardlink",
+        "sha256": "d01e412bcc9d8f913cfed340ad33ebe6e564cef50d470ee9786a56c5b1fe3b0c",
+        "sha256_in_prefix": "d01e412bcc9d8f913cfed340ad33ebe6e564cef50d470ee9786a56c5b1fe3b0c",
+        "size_in_bytes": 13332
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/ops/matmul.py",
+        "path_type": "hardlink",
+        "sha256": "0fb3c3b7707cbe0987e06f70a859d92e678c95bd5d12eb41a65c04a8a57de452",
+        "sha256_in_prefix": "0fb3c3b7707cbe0987e06f70a859d92e678c95bd5d12eb41a65c04a8a57de452",
+        "size_in_bytes": 8026
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/ops/matmul_perf_model.py",
+        "path_type": "hardlink",
+        "sha256": "2e2b9a16e7259b8f79982848b9b9f11317f0c8f0867c4370a27b7c19fd03a8f6",
+        "sha256_in_prefix": "2e2b9a16e7259b8f79982848b9b9f11317f0c8f0867c4370a27b7c19fd03a8f6",
+        "size_in_bytes": 6369
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/runtime/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e0dd9b4fcae9d7404030743317d0a222ddbbeaded7840db6735b8990d0767a39",
+        "sha256_in_prefix": "e0dd9b4fcae9d7404030743317d0a222ddbbeaded7840db6735b8990d0767a39",
+        "size_in_bytes": 516
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/runtime/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "07fb262f99893adbbef96490f69e4e3ecd8b936da67dd77cb0c2fb57ffc7acc3",
+        "sha256_in_prefix": "07fb262f99893adbbef96490f69e4e3ecd8b936da67dd77cb0c2fb57ffc7acc3",
+        "size_in_bytes": 563
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/runtime/__pycache__/autotuner.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "3284123b572c4e5711ecfb7b5c3a92b72867b4196a11ff57b83137c5a8a0aece",
+        "sha256_in_prefix": "3284123b572c4e5711ecfb7b5c3a92b72867b4196a11ff57b83137c5a8a0aece",
+        "size_in_bytes": 11208
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/runtime/__pycache__/cache.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "8fa630d27a9bff5829f597d38c260db376e23b8a6fbcf0b203bfbaf06f0e96b9",
+        "sha256_in_prefix": "8fa630d27a9bff5829f597d38c260db376e23b8a6fbcf0b203bfbaf06f0e96b9",
+        "size_in_bytes": 4351
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/runtime/__pycache__/driver.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1cadb0f81b0dca9ab78ee7035284489edd829c77a3791a18577c3b2412a38867",
+        "sha256_in_prefix": "1cadb0f81b0dca9ab78ee7035284489edd829c77a3791a18577c3b2412a38867",
+        "size_in_bytes": 5334
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/runtime/__pycache__/errors.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2696e0c6596ea7aca20a7b49bd78d79dee92d8538356afeb0159382b6114bdbe",
+        "sha256_in_prefix": "2696e0c6596ea7aca20a7b49bd78d79dee92d8538356afeb0159382b6114bdbe",
+        "size_in_bytes": 885
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/runtime/__pycache__/jit.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "7ca8f3bccb0dda8f702ce82a078d79ed9dcef1bf24289337794e7ba8214da8e4",
+        "sha256_in_prefix": "7ca8f3bccb0dda8f702ce82a078d79ed9dcef1bf24289337794e7ba8214da8e4",
+        "size_in_bytes": 23137
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/runtime/autotuner.py",
+        "path_type": "hardlink",
+        "sha256": "32958fc54ea1975cb9bb0cb5602fb9ef4e23efda21a069cb98fa402753a7e744",
+        "sha256_in_prefix": "32958fc54ea1975cb9bb0cb5602fb9ef4e23efda21a069cb98fa402753a7e744",
+        "size_in_bytes": 10907
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/runtime/backends/cuda.c",
+        "path_type": "hardlink",
+        "sha256": "e6cf6788619ed6d0afb75016dceeba8ea89842da4740cf5a525297a699d3bced",
+        "sha256_in_prefix": "e6cf6788619ed6d0afb75016dceeba8ea89842da4740cf5a525297a699d3bced",
+        "size_in_bytes": 4680
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/runtime/backends/hip.c",
+        "path_type": "hardlink",
+        "sha256": "2f7ed4cfe0ec5f99ed57f9c8dce9279ad07fc6eb9f216adf640bd6e1269f1530",
+        "sha256_in_prefix": "2f7ed4cfe0ec5f99ed57f9c8dce9279ad07fc6eb9f216adf640bd6e1269f1530",
+        "size_in_bytes": 4005
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/runtime/cache.py",
+        "path_type": "hardlink",
+        "sha256": "9297053dd11b1f770eeb41d5773858b673ae2327172676c3a9685bb85e619054",
+        "sha256_in_prefix": "9297053dd11b1f770eeb41d5773858b673ae2327172676c3a9685bb85e619054",
+        "size_in_bytes": 4190
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/runtime/driver.py",
+        "path_type": "hardlink",
+        "sha256": "bca4264d1cb6c4717b21ab1deb3b904a42522ec780a3d18e9a7f9947853e98a5",
+        "sha256_in_prefix": "bca4264d1cb6c4717b21ab1deb3b904a42522ec780a3d18e9a7f9947853e98a5",
+        "size_in_bytes": 5045
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/runtime/errors.py",
+        "path_type": "hardlink",
+        "sha256": "5ee03a511c02cb87b789861b5fd937e57f3dc27a1ab29eff2b52c03efb136cc4",
+        "sha256_in_prefix": "5ee03a511c02cb87b789861b5fd937e57f3dc27a1ab29eff2b52c03efb136cc4",
+        "size_in_bytes": 591
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/runtime/jit.py",
+        "path_type": "hardlink",
+        "sha256": "241394c51826a7b3556b8281eab1ea7db7ca2fcd5d010770728fc44a5f21e3c7",
+        "sha256_in_prefix": "241394c51826a7b3556b8281eab1ea7db7ca2fcd5d010770728fc44a5f21e3c7",
+        "size_in_bytes": 23013
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/testing.py",
+        "path_type": "hardlink",
+        "sha256": "b8ef98c9e1fd83c6d9c2020ddb51df39bb66350c8e790c7b6d10d451091b3340",
+        "sha256_in_prefix": "b8ef98c9e1fd83c6d9c2020ddb51df39bb66350c8e790c7b6d10d451091b3340",
+        "size_in_bytes": 17704
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/third_party/cuda/bin/ptxas",
+        "path_type": "hardlink",
+        "sha256": "03c603db544256135e26886ac82fd89c3551ee89743f4c974b569412cb691ce8",
+        "sha256_in_prefix": "03c603db544256135e26886ac82fd89c3551ee89743f4c974b569412cb691ce8",
+        "size_in_bytes": 20499696
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/third_party/cuda/include/cuda.h",
+        "path_type": "hardlink",
+        "sha256": "c8204d0a966dfea55a6f3c956adb5cdaaac4ab7ea9e4c78bde40f3bcd75e5780",
+        "sha256_in_prefix": "c8204d0a966dfea55a6f3c956adb5cdaaac4ab7ea9e4c78bde40f3bcd75e5780",
+        "size_in_bytes": 790319
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/third_party/cuda/lib/libdevice.10.bc",
+        "path_type": "hardlink",
+        "sha256": "5c2fae37c86e68c3a38605a95f512d7d12d5f3db986310be47f57304aa72a5ee",
+        "sha256_in_prefix": "5c2fae37c86e68c3a38605a95f512d7d12d5f3db986310be47f57304aa72a5ee",
+        "size_in_bytes": 473728
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/tools/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/tools/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a1f043eae84c7307345872fe7eab6fe77a18ee5f34b56398353b3e67187ae3e3",
+        "sha256_in_prefix": "a1f043eae84c7307345872fe7eab6fe77a18ee5f34b56398353b3e67187ae3e3",
+        "size_in_bytes": 146
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/tools/__pycache__/build_extern.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "7e160c55dfa65e58b7533ec2aad77d10e31a87388e13039eeb54021a6486713c",
+        "sha256_in_prefix": "7e160c55dfa65e58b7533ec2aad77d10e31a87388e13039eeb54021a6486713c",
+        "size_in_bytes": 13641
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/tools/__pycache__/compile.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "2009276b6d257b104e425dc78f6c6785d202c324851d8e74bc8cdee31db743e5",
+        "sha256_in_prefix": "2009276b6d257b104e425dc78f6c6785d202c324851d8e74bc8cdee31db743e5",
+        "size_in_bytes": 5752
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/tools/__pycache__/disasm.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "d51e2e4b35b4db3cf230bd9fd143681bd5690f02d301836034b88c3f32532d3d",
+        "sha256_in_prefix": "d51e2e4b35b4db3cf230bd9fd143681bd5690f02d301836034b88c3f32532d3d",
+        "size_in_bytes": 2236
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/tools/__pycache__/link.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "0740061b90f79d0441c8db1e5e09e4bc377cbb6c49cb8aa3375e30990bf18d53",
+        "sha256_in_prefix": "0740061b90f79d0441c8db1e5e09e4bc377cbb6c49cb8aa3375e30990bf18d53",
+        "size_in_bytes": 7200
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/tools/build_extern.py",
+        "path_type": "hardlink",
+        "sha256": "b79bdda3a6b76dc15f6b03100674dd7abc3b5e2f8be3dc78b9da26a0e59152dc",
+        "sha256_in_prefix": "b79bdda3a6b76dc15f6b03100674dd7abc3b5e2f8be3dc78b9da26a0e59152dc",
+        "size_in_bytes": 14661
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/tools/compile.c",
+        "path_type": "hardlink",
+        "sha256": "9390eb0e1ee70f47d68407678f63380634e5b88d1752a855f92474c16608e5b9",
+        "sha256_in_prefix": "9390eb0e1ee70f47d68407678f63380634e5b88d1752a855f92474c16608e5b9",
+        "size_in_bytes": 2048
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/tools/compile.h",
+        "path_type": "hardlink",
+        "sha256": "c1906cc8f4e0728c0228c62c2a00bcd65b336676bfa29d9bfe1e196de886a203",
+        "sha256_in_prefix": "c1906cc8f4e0728c0228c62c2a00bcd65b336676bfa29d9bfe1e196de886a203",
+        "size_in_bytes": 440
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/tools/compile.py",
+        "path_type": "hardlink",
+        "sha256": "592c812336de3e9bb440450806cef5862fedf3ae9b849b48b0b1c288233a0ba3",
+        "sha256_in_prefix": "592c812336de3e9bb440450806cef5862fedf3ae9b849b48b0b1c288233a0ba3",
+        "size_in_bytes": 5337
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/tools/disasm.py",
+        "path_type": "hardlink",
+        "sha256": "14eb6a0858d479d2e866d6f585e92d043df62f56310b8dea9d6299afa5577391",
+        "sha256_in_prefix": "14eb6a0858d479d2e866d6f585e92d043df62f56310b8dea9d6299afa5577391",
+        "size_in_bytes": 4593
+      },
+      {
+        "_path": "lib/python3.10/site-packages/triton/tools/link.py",
+        "path_type": "hardlink",
+        "sha256": "e9190ea5537023bee22f3edbd8595d775bafbe2984558f5ecf74ada2885f18fc",
+        "sha256_in_prefix": "e9190ea5537023bee22f3edbd8595d775bafbe2984558f5ecf74ada2885f18fc",
+        "size_in_bytes": 6857
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9a98f884ba4a34c9fac59127e5f7930441ecdcc8628e135fe8d0f480540d62b6",
+  "size": 95306827,
+  "subdir": "linux-64",
+  "timestamp": 1695392036786,
+  "url": "https://conda.anaconda.org/pytorch/linux-64/torchtriton-2.1.0-py310.tar.bz2",
+  "version": "2.1.0"
+}

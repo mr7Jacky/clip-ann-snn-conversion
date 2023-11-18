@@ -1,0 +1,30 @@
+{
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/nvidia/linux-64",
+  "constrains": [],
+  "depends": [
+    "cuda-libraries >=11.8.0"
+  ],
+  "extracted_package_dir": "/home/jacky/miniconda3/pkgs/cuda-runtime-11.8.0-0",
+  "files": [],
+  "fn": "cuda-runtime-11.8.0-0.tar.bz2",
+  "link": {
+    "source": "/home/jacky/miniconda3/pkgs/cuda-runtime-11.8.0-0",
+    "type": 1
+  },
+  "md5": "3ca379d762f8d7bd727df9e2c9b30664",
+  "name": "cuda-runtime",
+  "package_tarball_full_path": "/home/jacky/miniconda3/pkgs/cuda-runtime-11.8.0-0.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "4ec90f237174c33514a898a363eb9e65edd93df0b571362ac0bda590d7d4ba29",
+  "size": 1434,
+  "subdir": "linux-64",
+  "timestamp": 1664475536765,
+  "url": "https://conda.anaconda.org/nvidia/linux-64/cuda-runtime-11.8.0-0.tar.bz2",
+  "version": "11.8.0"
+}

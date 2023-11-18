@@ -1,0 +1,39 @@
+{
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/nvidia/linux-64",
+  "constrains": [],
+  "depends": [
+    "cuda-cudart >=11.8.89",
+    "cuda-nvrtc >=11.8.89",
+    "libcublas >=11.11.3.6",
+    "libcufft >=10.9.0.58",
+    "libcufile >=1.4.0.31",
+    "libcurand >=10.3.0.86",
+    "libcusolver >=11.4.1.48",
+    "libcusparse >=11.7.5.86",
+    "libnpp >=11.8.0.86",
+    "libnvjpeg >=11.9.0.86"
+  ],
+  "extracted_package_dir": "/home/jacky/miniconda3/pkgs/cuda-libraries-11.8.0-0",
+  "files": [],
+  "fn": "cuda-libraries-11.8.0-0.tar.bz2",
+  "link": {
+    "source": "/home/jacky/miniconda3/pkgs/cuda-libraries-11.8.0-0",
+    "type": 1
+  },
+  "md5": "3a43d100104e52ac8209a834c82ab231",
+  "name": "cuda-libraries",
+  "package_tarball_full_path": "/home/jacky/miniconda3/pkgs/cuda-libraries-11.8.0-0.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c49445809212502739d41f2a5613dfaba32e0e39d45ffa5b154528d5b3a004cd",
+  "size": 1535,
+  "subdir": "linux-64",
+  "timestamp": 1664475490383,
+  "url": "https://conda.anaconda.org/nvidia/linux-64/cuda-libraries-11.8.0-0.tar.bz2",
+  "version": "11.8.0"
+}

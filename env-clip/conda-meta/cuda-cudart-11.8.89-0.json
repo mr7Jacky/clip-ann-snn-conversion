@@ -1,0 +1,67 @@
+{
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/nvidia/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/home/jacky/miniconda3/pkgs/cuda-cudart-11.8.89-0",
+  "files": [
+    "lib/libOpenCL.so.1",
+    "lib/libOpenCL.so.1.0",
+    "lib/libOpenCL.so.1.0.0",
+    "lib/libcudart.so.11.0",
+    "lib/libcudart.so.11.8.89"
+  ],
+  "fn": "cuda-cudart-11.8.89-0.tar.bz2",
+  "link": {
+    "source": "/home/jacky/miniconda3/pkgs/cuda-cudart-11.8.89-0",
+    "type": 1
+  },
+  "md5": "b68c7ef3eda01e95d5903fb508c5e440",
+  "name": "cuda-cudart",
+  "package_tarball_full_path": "/home/jacky/miniconda3/pkgs/cuda-cudart-11.8.89-0",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libOpenCL.so.1",
+        "path_type": "softlink",
+        "sha256": "5f1140bffd8aa5b5dca232b98f6fe1d866a81db2207075482f2c05ee3a947f0c",
+        "size_in_bytes": 37368
+      },
+      {
+        "_path": "lib/libOpenCL.so.1.0",
+        "path_type": "softlink",
+        "sha256": "5f1140bffd8aa5b5dca232b98f6fe1d866a81db2207075482f2c05ee3a947f0c",
+        "size_in_bytes": 37368
+      },
+      {
+        "_path": "lib/libOpenCL.so.1.0.0",
+        "path_type": "hardlink",
+        "sha256": "5f1140bffd8aa5b5dca232b98f6fe1d866a81db2207075482f2c05ee3a947f0c",
+        "sha256_in_prefix": "5f1140bffd8aa5b5dca232b98f6fe1d866a81db2207075482f2c05ee3a947f0c",
+        "size_in_bytes": 37368
+      },
+      {
+        "_path": "lib/libcudart.so.11.0",
+        "path_type": "softlink",
+        "sha256": "8db0547bf0ca365e06778575987e4ccf8ec35fa314867fd84e7d43fed00ecd2e",
+        "size_in_bytes": 695712
+      },
+      {
+        "_path": "lib/libcudart.so.11.8.89",
+        "path_type": "hardlink",
+        "sha256": "8db0547bf0ca365e06778575987e4ccf8ec35fa314867fd84e7d43fed00ecd2e",
+        "sha256_in_prefix": "8db0547bf0ca365e06778575987e4ccf8ec35fa314867fd84e7d43fed00ecd2e",
+        "size_in_bytes": 695712
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f8cf96ae45acf1bef5ff0be3e849d87e3543144ec8c0075db235f4933113a3b0",
+  "size": 201959,
+  "subdir": "linux-64",
+  "timestamp": 1663787236799,
+  "url": "https://conda.anaconda.org/nvidia/linux-64/cuda-cudart-11.8.89-0.tar.bz2",
+  "version": "11.8.89"
+}

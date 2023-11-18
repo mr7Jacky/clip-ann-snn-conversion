@@ -1,0 +1,45 @@
+{
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/nvidia/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/home/jacky/miniconda3/pkgs/libnvjpeg-11.9.0.86-0",
+  "files": [
+    "lib/libnvjpeg.so.11",
+    "lib/libnvjpeg.so.11.9.0.86"
+  ],
+  "fn": "libnvjpeg-11.9.0.86-0.tar.bz2",
+  "link": {
+    "source": "/home/jacky/miniconda3/pkgs/libnvjpeg-11.9.0.86-0",
+    "type": 1
+  },
+  "md5": "e42d6f0f20feb0cba0165d5cae33362f",
+  "name": "libnvjpeg",
+  "package_tarball_full_path": "/home/jacky/miniconda3/pkgs/libnvjpeg-11.9.0.86-0",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libnvjpeg.so.11",
+        "path_type": "softlink",
+        "sha256": "8b640fbc550cde61862d6f59a6518e6edc06fe83b51e535a4e78351db25f77d9",
+        "size_in_bytes": 5699080
+      },
+      {
+        "_path": "lib/libnvjpeg.so.11.9.0.86",
+        "path_type": "hardlink",
+        "sha256": "8b640fbc550cde61862d6f59a6518e6edc06fe83b51e535a4e78351db25f77d9",
+        "sha256_in_prefix": "8b640fbc550cde61862d6f59a6518e6edc06fe83b51e535a4e78351db25f77d9",
+        "size_in_bytes": 5699080
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "edc9f27315dd85a97490b9af3943ce2a2d3eb7e13fc287a37c33cf78853f6421",
+  "size": 2508741,
+  "subdir": "linux-64",
+  "timestamp": 1661545915358,
+  "url": "https://conda.anaconda.org/nvidia/linux-64/libnvjpeg-11.9.0.86-0.tar.bz2",
+  "version": "11.9.0.86"
+}

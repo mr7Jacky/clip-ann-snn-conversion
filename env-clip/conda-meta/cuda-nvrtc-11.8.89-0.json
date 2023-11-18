@@ -1,0 +1,60 @@
+{
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/nvidia/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/home/jacky/miniconda3/pkgs/cuda-nvrtc-11.8.89-0",
+  "files": [
+    "lib/libnvrtc-builtins.so.11.8",
+    "lib/libnvrtc-builtins.so.11.8.89",
+    "lib/libnvrtc.so.11.2",
+    "lib/libnvrtc.so.11.8.89"
+  ],
+  "fn": "cuda-nvrtc-11.8.89-0.tar.bz2",
+  "link": {
+    "source": "/home/jacky/miniconda3/pkgs/cuda-nvrtc-11.8.89-0",
+    "type": 1
+  },
+  "md5": "f4af75ee32661708c979630cdb8f4987",
+  "name": "cuda-nvrtc",
+  "package_tarball_full_path": "/home/jacky/miniconda3/pkgs/cuda-nvrtc-11.8.89-0",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libnvrtc-builtins.so.11.8",
+        "path_type": "softlink",
+        "sha256": "4d4c0ccc2dac6dc876bdd1c6744dd9e4078799e75d5b37567325e49ac19dd61a",
+        "size_in_bytes": 7722656
+      },
+      {
+        "_path": "lib/libnvrtc-builtins.so.11.8.89",
+        "path_type": "hardlink",
+        "sha256": "4d4c0ccc2dac6dc876bdd1c6744dd9e4078799e75d5b37567325e49ac19dd61a",
+        "sha256_in_prefix": "4d4c0ccc2dac6dc876bdd1c6744dd9e4078799e75d5b37567325e49ac19dd61a",
+        "size_in_bytes": 7722656
+      },
+      {
+        "_path": "lib/libnvrtc.so.11.2",
+        "path_type": "softlink",
+        "sha256": "d9efbd1152197437c3615c1f93b1435c898b4a625158565979b149f5126b40c9",
+        "size_in_bytes": 54417568
+      },
+      {
+        "_path": "lib/libnvrtc.so.11.8.89",
+        "path_type": "hardlink",
+        "sha256": "d9efbd1152197437c3615c1f93b1435c898b4a625158565979b149f5126b40c9",
+        "sha256_in_prefix": "d9efbd1152197437c3615c1f93b1435c898b4a625158565979b149f5126b40c9",
+        "size_in_bytes": 54417568
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "8ed6b83df491ab3bee78ee561c3361854d36ec01ef944a9578332774e9c21611",
+  "size": 20069921,
+  "subdir": "linux-64",
+  "timestamp": 1663786884512,
+  "url": "https://conda.anaconda.org/nvidia/linux-64/cuda-nvrtc-11.8.89-0.tar.bz2",
+  "version": "11.8.89"
+}

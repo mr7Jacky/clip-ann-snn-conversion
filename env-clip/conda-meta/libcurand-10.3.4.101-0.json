@@ -1,0 +1,45 @@
+{
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/nvidia/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/home/jacky/miniconda3/pkgs/libcurand-10.3.4.101-0",
+  "files": [
+    "lib/libcurand.so.10",
+    "lib/libcurand.so.10.3.4.101"
+  ],
+  "fn": "libcurand-10.3.4.101-0.tar.bz2",
+  "link": {
+    "source": "/home/jacky/miniconda3/pkgs/libcurand-10.3.4.101-0",
+    "type": 1
+  },
+  "md5": "c19aee1cc95a33b3aadc62113f1e57f2",
+  "name": "libcurand",
+  "package_tarball_full_path": "/home/jacky/miniconda3/pkgs/libcurand-10.3.4.101-0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libcurand.so.10",
+        "path_type": "softlink",
+        "sha256": "57061870f4b5cdca299feca863cb39c5b4b64da72198aacf4acf1abc72e9fb82",
+        "size_in_bytes": 96263449
+      },
+      {
+        "_path": "lib/libcurand.so.10.3.4.101",
+        "path_type": "hardlink",
+        "sha256": "57061870f4b5cdca299feca863cb39c5b4b64da72198aacf4acf1abc72e9fb82",
+        "sha256_in_prefix": "57061870f4b5cdca299feca863cb39c5b4b64da72198aacf4acf1abc72e9fb82",
+        "size_in_bytes": 96263449
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "0c001fd158a81b5fff10cd711805f87c8d11a9f5794ea9fa5aa76aef129c0b48",
+  "size": 54298628,
+  "subdir": "linux-64",
+  "timestamp": 1698747381363,
+  "url": "https://conda.anaconda.org/nvidia/linux-64/libcurand-10.3.4.101-0.tar.bz2",
+  "version": "10.3.4.101"
+}

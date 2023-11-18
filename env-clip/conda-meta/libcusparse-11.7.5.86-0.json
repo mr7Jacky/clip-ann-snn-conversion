@@ -1,0 +1,45 @@
+{
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/nvidia/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/home/jacky/miniconda3/pkgs/libcusparse-11.7.5.86-0",
+  "files": [
+    "lib/libcusparse.so.11",
+    "lib/libcusparse.so.11.7.5.86"
+  ],
+  "fn": "libcusparse-11.7.5.86-0.tar.bz2",
+  "link": {
+    "source": "/home/jacky/miniconda3/pkgs/libcusparse-11.7.5.86-0",
+    "type": 1
+  },
+  "md5": "853c37fabd07b5b91d3007afc82c3ed4",
+  "name": "libcusparse",
+  "package_tarball_full_path": "/home/jacky/miniconda3/pkgs/libcusparse-11.7.5.86-0",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libcusparse.so.11",
+        "path_type": "softlink",
+        "sha256": "3ee85a7bbf0b11caf7c9371ef704a708a43574803be5903b90820413070e12de",
+        "size_in_bytes": 279918360
+      },
+      {
+        "_path": "lib/libcusparse.so.11.7.5.86",
+        "path_type": "hardlink",
+        "sha256": "3ee85a7bbf0b11caf7c9371ef704a708a43574803be5903b90820413070e12de",
+        "sha256_in_prefix": "3ee85a7bbf0b11caf7c9371ef704a708a43574803be5903b90820413070e12de",
+        "size_in_bytes": 279918360
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "61f9bee3a0ed675a8978815071b63a6bbfe3ea141c2d12613ba1d1cc65c584d2",
+  "size": 184891885,
+  "subdir": "linux-64",
+  "timestamp": 1661489463016,
+  "url": "https://conda.anaconda.org/nvidia/linux-64/libcusparse-11.7.5.86-0.tar.bz2",
+  "version": "11.7.5.86"
+}

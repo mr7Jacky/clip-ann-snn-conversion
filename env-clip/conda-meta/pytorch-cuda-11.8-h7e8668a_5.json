@@ -1,0 +1,41 @@
+{
+  "build": "h7e8668a_5",
+  "build_number": 5,
+  "channel": "https://conda.anaconda.org/pytorch/linux-64",
+  "constrains": [],
+  "depends": [
+    "cuda-cudart >=11.8,<12.0",
+    "cuda-cupti >=11.8,<12.0",
+    "cuda-libraries >=11.8,<12.0",
+    "cuda-nvrtc >=11.8,<12.0",
+    "cuda-nvtx >=11.8,<12.0",
+    "cuda-runtime >=11.8,<12.0",
+    "libcublas >=11.11.3.6,<12.0.1.189",
+    "libcufft >=10.9.0.58,<11.0.0.21",
+    "libcusolver >=11.4.1.48,<11.4.2.57",
+    "libcusparse >=11.7.5.86,<12.0.0.76",
+    "libnpp >=11.8.0.86,<12.0.0.30",
+    "libnvjpeg >=11.9.0.86,<12.0.0.28"
+  ],
+  "extracted_package_dir": "/home/jacky/miniconda3/pkgs/pytorch-cuda-11.8-h7e8668a_5",
+  "files": [],
+  "fn": "pytorch-cuda-11.8-h7e8668a_5.tar.bz2",
+  "link": {
+    "source": "/home/jacky/miniconda3/pkgs/pytorch-cuda-11.8-h7e8668a_5",
+    "type": 1
+  },
+  "md5": "48e990086eb245cce92f09b45a34651e",
+  "name": "pytorch-cuda",
+  "package_tarball_full_path": "/home/jacky/miniconda3/pkgs/pytorch-cuda-11.8-h7e8668a_5.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "pytorch-cuda=11.8",
+  "sha256": "81a9df218f84b45386818dbc180180a5adb7a5df097d1c4c7ec05c5fa5b0f8ca",
+  "size": 3561,
+  "subdir": "linux-64",
+  "timestamp": 1682528151734,
+  "url": "https://conda.anaconda.org/pytorch/linux-64/pytorch-cuda-11.8-h7e8668a_5.tar.bz2",
+  "version": "11.8"
+}
