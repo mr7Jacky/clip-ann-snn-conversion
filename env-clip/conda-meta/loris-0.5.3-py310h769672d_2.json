@@ -1,0 +1,184 @@
+{
+  "build": "py310h769672d_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "aedat",
+    "libgcc-ng >=10.3.0",
+    "libstdcxx-ng >=10.3.0",
+    "numpy >=1.21.5,<2.0a0",
+    "python >=3.10,<3.11.0a0",
+    "python_abi 3.10.* *_cp310",
+    "tqdm"
+  ],
+  "extracted_package_dir": "/home/jacky/miniconda3/pkgs/loris-0.5.3-py310h769672d_2",
+  "files": [
+    "lib/python3.10/site-packages/loris-0.5.3.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/loris-0.5.3.dist-info/METADATA",
+    "lib/python3.10/site-packages/loris-0.5.3.dist-info/RECORD",
+    "lib/python3.10/site-packages/loris-0.5.3.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/loris-0.5.3.dist-info/WHEEL",
+    "lib/python3.10/site-packages/loris-0.5.3.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/loris-0.5.3.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/loris/CSV.py",
+    "lib/python3.10/site-packages/loris/ReadFile.py",
+    "lib/python3.10/site-packages/loris/WriteEventsToFile.py",
+    "lib/python3.10/site-packages/loris/__init__.py",
+    "lib/python3.10/site-packages/loris/__pycache__/CSV.cpython-310.pyc",
+    "lib/python3.10/site-packages/loris/__pycache__/ReadFile.cpython-310.pyc",
+    "lib/python3.10/site-packages/loris/__pycache__/WriteEventsToFile.cpython-310.pyc",
+    "lib/python3.10/site-packages/loris/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/loris/__pycache__/utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/loris/utils.py",
+    "lib/python3.10/site-packages/loris_extension.cpython-310-x86_64-linux-gnu.so"
+  ],
+  "fn": "loris-0.5.3-py310h769672d_2.tar.bz2",
+  "license": "GPL-3.0-or-later",
+  "license_family": "GPL",
+  "link": {
+    "source": "/home/jacky/miniconda3/pkgs/loris-0.5.3-py310h769672d_2",
+    "type": 1
+  },
+  "md5": "a0b89b7c503c07305bbdfb08e3759af9",
+  "name": "loris",
+  "package_tarball_full_path": "/home/jacky/miniconda3/pkgs/loris-0.5.3-py310h769672d_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/loris-0.5.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.10/site-packages/loris-0.5.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "2b744ae8fb184ae9aa29b7c4ea4d06d9d3604fac5025a42b1e594f672660f241",
+        "sha256_in_prefix": "2b744ae8fb184ae9aa29b7c4ea4d06d9d3604fac5025a42b1e594f672660f241",
+        "size_in_bytes": 2353
+      },
+      {
+        "_path": "lib/python3.10/site-packages/loris-0.5.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "e150209d9d671376c69f45c5cb3e92c66dbd703e53e6036dc9cedfa6dd559223",
+        "sha256_in_prefix": "e150209d9d671376c69f45c5cb3e92c66dbd703e53e6036dc9cedfa6dd559223",
+        "size_in_bytes": 1272
+      },
+      {
+        "_path": "lib/python3.10/site-packages/loris-0.5.3.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/loris-0.5.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "9d3cbf67c8af18407aa85c152e0eff87aaead09b74254e4fcf670bdbf16348c4",
+        "sha256_in_prefix": "9d3cbf67c8af18407aa85c152e0eff87aaead09b74254e4fcf670bdbf16348c4",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "lib/python3.10/site-packages/loris-0.5.3.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "79635d2b74ba9bd511a9c6b8c0fbfdaca156dde8c77910c68b39917ceaab3fa3",
+        "sha256_in_prefix": "79635d2b74ba9bd511a9c6b8c0fbfdaca156dde8c77910c68b39917ceaab3fa3",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "lib/python3.10/site-packages/loris-0.5.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "e47775bef0334b009dca5871152095b7d9c4fd31619d976e9efd068550e7d79c",
+        "sha256_in_prefix": "e47775bef0334b009dca5871152095b7d9c4fd31619d976e9efd068550e7d79c",
+        "size_in_bytes": 22
+      },
+      {
+        "_path": "lib/python3.10/site-packages/loris/CSV.py",
+        "path_type": "hardlink",
+        "sha256": "a341fee680486b06d68abf5b99bfaf0d9da2d43d26662ffa5e03a2e92772e37d",
+        "sha256_in_prefix": "a341fee680486b06d68abf5b99bfaf0d9da2d43d26662ffa5e03a2e92772e37d",
+        "size_in_bytes": 1509
+      },
+      {
+        "_path": "lib/python3.10/site-packages/loris/ReadFile.py",
+        "path_type": "hardlink",
+        "sha256": "493b077d83ef4ee9365c0dd5c25c53ee48156c779704e73acc972c1a7e105803",
+        "sha256_in_prefix": "493b077d83ef4ee9365c0dd5c25c53ee48156c779704e73acc972c1a7e105803",
+        "size_in_bytes": 2756
+      },
+      {
+        "_path": "lib/python3.10/site-packages/loris/WriteEventsToFile.py",
+        "path_type": "hardlink",
+        "sha256": "8f1b5babdee7f7589d6d60e10c2f2225755d55249b6f5015173b896603146bb6",
+        "sha256_in_prefix": "8f1b5babdee7f7589d6d60e10c2f2225755d55249b6f5015173b896603146bb6",
+        "size_in_bytes": 2934
+      },
+      {
+        "_path": "lib/python3.10/site-packages/loris/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "580f4e366e00bb4cc586af7982b34d6189e3ca78eb7ba8d9a3f28e99b8b3de68",
+        "sha256_in_prefix": "580f4e366e00bb4cc586af7982b34d6189e3ca78eb7ba8d9a3f28e99b8b3de68",
+        "size_in_bytes": 84
+      },
+      {
+        "_path": "lib/python3.10/site-packages/loris/__pycache__/CSV.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a0f58e583ebc9372affcc98ffee128a0a78f095cbda97fc330a007337e3254ff",
+        "sha256_in_prefix": "a0f58e583ebc9372affcc98ffee128a0a78f095cbda97fc330a007337e3254ff",
+        "size_in_bytes": 1509
+      },
+      {
+        "_path": "lib/python3.10/site-packages/loris/__pycache__/ReadFile.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "69d1c29861d99c94272b5e3a25397fa644db9a5ce09238f2e779ae85e42b1b2b",
+        "sha256_in_prefix": "69d1c29861d99c94272b5e3a25397fa644db9a5ce09238f2e779ae85e42b1b2b",
+        "size_in_bytes": 1989
+      },
+      {
+        "_path": "lib/python3.10/site-packages/loris/__pycache__/WriteEventsToFile.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "53c08613a4c75ce66b3e03aa502cc0bf857532cf7447108dc62c93bbfd24c384",
+        "sha256_in_prefix": "53c08613a4c75ce66b3e03aa502cc0bf857532cf7447108dc62c93bbfd24c384",
+        "size_in_bytes": 2014
+      },
+      {
+        "_path": "lib/python3.10/site-packages/loris/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "1dea6da32ff8a4060d0e07bbd871f21aab40e7d9181cee549d613d104abc9180",
+        "sha256_in_prefix": "1dea6da32ff8a4060d0e07bbd871f21aab40e7d9181cee549d613d104abc9180",
+        "size_in_bytes": 243
+      },
+      {
+        "_path": "lib/python3.10/site-packages/loris/__pycache__/utils.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "ff230b6e5617834ad6963db379a98719772fb0ba0563ad202ef4f4049b4cf929",
+        "sha256_in_prefix": "ff230b6e5617834ad6963db379a98719772fb0ba0563ad202ef4f4049b4cf929",
+        "size_in_bytes": 956
+      },
+      {
+        "_path": "lib/python3.10/site-packages/loris/utils.py",
+        "path_type": "hardlink",
+        "sha256": "595676c21d2dd29e5726b0e2216cfe7caddfe33eaa6ac7f03a38bff977517847",
+        "sha256_in_prefix": "595676c21d2dd29e5726b0e2216cfe7caddfe33eaa6ac7f03a38bff977517847",
+        "size_in_bytes": 864
+      },
+      {
+        "_path": "lib/python3.10/site-packages/loris_extension.cpython-310-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "e1fb27db69eeb0c58db35c5eef5c560d6b3880c6c3ec9d610a39e5ed93129de8",
+        "sha256_in_prefix": "e1fb27db69eeb0c58db35c5eef5c560d6b3880c6c3ec9d610a39e5ed93129de8",
+        "size_in_bytes": 237104
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9c39c82b5c37325130e0c5a186ede09f1f7e5cf041f8ea354a7681f73246e09a",
+  "size": 91704,
+  "subdir": "linux-64",
+  "timestamp": 1645677881031,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/loris-0.5.3-py310h769672d_2.tar.bz2",
+  "version": "0.5.3"
+}

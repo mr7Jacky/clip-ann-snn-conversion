@@ -1,0 +1,572 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "matplotlib-base",
+    "numpy",
+    "pandas",
+    "python >=3.6",
+    "pytorch >=1.1.0"
+  ],
+  "extracted_package_dir": "/home/jacky/miniconda3/pkgs/snntorch-0.6.4-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.10/site-packages/snntorch-0.6.4.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/snntorch-0.6.4.dist-info/LICENSE",
+    "lib/python3.10/site-packages/snntorch-0.6.4.dist-info/METADATA",
+    "lib/python3.10/site-packages/snntorch-0.6.4.dist-info/RECORD",
+    "lib/python3.10/site-packages/snntorch-0.6.4.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/snntorch-0.6.4.dist-info/WHEEL",
+    "lib/python3.10/site-packages/snntorch-0.6.4.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/snntorch-0.6.4.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/snntorch/__init__.py",
+    "lib/python3.10/site-packages/snntorch/_layers/__init__.py",
+    "lib/python3.10/site-packages/snntorch/_layers/bntt.py",
+    "lib/python3.10/site-packages/snntorch/_layers/graded_spikes.py",
+    "lib/python3.10/site-packages/snntorch/_neurons/__init__.py",
+    "lib/python3.10/site-packages/snntorch/_neurons/alpha.py",
+    "lib/python3.10/site-packages/snntorch/_neurons/lapicque.py",
+    "lib/python3.10/site-packages/snntorch/_neurons/leaky.py",
+    "lib/python3.10/site-packages/snntorch/_neurons/neurons.py",
+    "lib/python3.10/site-packages/snntorch/_neurons/rleaky.py",
+    "lib/python3.10/site-packages/snntorch/_neurons/rsynaptic.py",
+    "lib/python3.10/site-packages/snntorch/_neurons/sconv2dlstm.py",
+    "lib/python3.10/site-packages/snntorch/_neurons/slstm.py",
+    "lib/python3.10/site-packages/snntorch/_neurons/synaptic.py",
+    "lib/python3.10/site-packages/snntorch/_version.py",
+    "lib/python3.10/site-packages/snntorch/backprop.py",
+    "lib/python3.10/site-packages/snntorch/functional/__init__.py",
+    "lib/python3.10/site-packages/snntorch/functional/acc.py",
+    "lib/python3.10/site-packages/snntorch/functional/loss.py",
+    "lib/python3.10/site-packages/snntorch/functional/probe.py",
+    "lib/python3.10/site-packages/snntorch/functional/quant.py",
+    "lib/python3.10/site-packages/snntorch/functional/reg.py",
+    "lib/python3.10/site-packages/snntorch/functional/stdp_learner.py",
+    "lib/python3.10/site-packages/snntorch/spikegen.py",
+    "lib/python3.10/site-packages/snntorch/spikeplot.py",
+    "lib/python3.10/site-packages/snntorch/spikevision/__init__.py",
+    "lib/python3.10/site-packages/snntorch/spikevision/_transforms.py",
+    "lib/python3.10/site-packages/snntorch/spikevision/_utils.py",
+    "lib/python3.10/site-packages/snntorch/spikevision/events_timeslices.py",
+    "lib/python3.10/site-packages/snntorch/spikevision/neuromorphic_dataset.py",
+    "lib/python3.10/site-packages/snntorch/spikevision/spikedata/__init__.py",
+    "lib/python3.10/site-packages/snntorch/spikevision/spikedata/dvs_gesture.py",
+    "lib/python3.10/site-packages/snntorch/spikevision/spikedata/nmnist.py",
+    "lib/python3.10/site-packages/snntorch/spikevision/spikedata/shd.py",
+    "lib/python3.10/site-packages/snntorch/surrogate.py",
+    "lib/python3.10/site-packages/snntorch/utils.py",
+    "lib/python3.10/site-packages/snntorch/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/snntorch/_layers/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/snntorch/_layers/__pycache__/bntt.cpython-310.pyc",
+    "lib/python3.10/site-packages/snntorch/_layers/__pycache__/graded_spikes.cpython-310.pyc",
+    "lib/python3.10/site-packages/snntorch/_neurons/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/snntorch/_neurons/__pycache__/alpha.cpython-310.pyc",
+    "lib/python3.10/site-packages/snntorch/_neurons/__pycache__/lapicque.cpython-310.pyc",
+    "lib/python3.10/site-packages/snntorch/_neurons/__pycache__/leaky.cpython-310.pyc",
+    "lib/python3.10/site-packages/snntorch/_neurons/__pycache__/neurons.cpython-310.pyc",
+    "lib/python3.10/site-packages/snntorch/_neurons/__pycache__/rleaky.cpython-310.pyc",
+    "lib/python3.10/site-packages/snntorch/_neurons/__pycache__/rsynaptic.cpython-310.pyc",
+    "lib/python3.10/site-packages/snntorch/_neurons/__pycache__/sconv2dlstm.cpython-310.pyc",
+    "lib/python3.10/site-packages/snntorch/_neurons/__pycache__/slstm.cpython-310.pyc",
+    "lib/python3.10/site-packages/snntorch/_neurons/__pycache__/synaptic.cpython-310.pyc",
+    "lib/python3.10/site-packages/snntorch/__pycache__/_version.cpython-310.pyc",
+    "lib/python3.10/site-packages/snntorch/__pycache__/backprop.cpython-310.pyc",
+    "lib/python3.10/site-packages/snntorch/functional/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/snntorch/functional/__pycache__/acc.cpython-310.pyc",
+    "lib/python3.10/site-packages/snntorch/functional/__pycache__/loss.cpython-310.pyc",
+    "lib/python3.10/site-packages/snntorch/functional/__pycache__/probe.cpython-310.pyc",
+    "lib/python3.10/site-packages/snntorch/functional/__pycache__/quant.cpython-310.pyc",
+    "lib/python3.10/site-packages/snntorch/functional/__pycache__/reg.cpython-310.pyc",
+    "lib/python3.10/site-packages/snntorch/functional/__pycache__/stdp_learner.cpython-310.pyc",
+    "lib/python3.10/site-packages/snntorch/__pycache__/spikegen.cpython-310.pyc",
+    "lib/python3.10/site-packages/snntorch/__pycache__/spikeplot.cpython-310.pyc",
+    "lib/python3.10/site-packages/snntorch/spikevision/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/snntorch/spikevision/__pycache__/_transforms.cpython-310.pyc",
+    "lib/python3.10/site-packages/snntorch/spikevision/__pycache__/_utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/snntorch/spikevision/__pycache__/events_timeslices.cpython-310.pyc",
+    "lib/python3.10/site-packages/snntorch/spikevision/__pycache__/neuromorphic_dataset.cpython-310.pyc",
+    "lib/python3.10/site-packages/snntorch/spikevision/spikedata/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/snntorch/spikevision/spikedata/__pycache__/dvs_gesture.cpython-310.pyc",
+    "lib/python3.10/site-packages/snntorch/spikevision/spikedata/__pycache__/nmnist.cpython-310.pyc",
+    "lib/python3.10/site-packages/snntorch/spikevision/spikedata/__pycache__/shd.cpython-310.pyc",
+    "lib/python3.10/site-packages/snntorch/__pycache__/surrogate.cpython-310.pyc",
+    "lib/python3.10/site-packages/snntorch/__pycache__/utils.cpython-310.pyc"
+  ],
+  "fn": "snntorch-0.6.4-pyhd8ed1ab_0.conda",
+  "license": "GPL-3.0-or-later",
+  "license_family": "GPL",
+  "link": {
+    "source": "/home/jacky/miniconda3/pkgs/snntorch-0.6.4-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "3410028daeea7022c4637d95a32c302e",
+  "name": "snntorch",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/jacky/miniconda3/pkgs/snntorch-0.6.4-pyhd8ed1ab_0",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/snntorch-0.6.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/snntorch-0.6.4.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "9e2f1f450ad6a84735fb4c17bec8c691366e114f19cf18f0609c30f2b7e2aaa4",
+        "sha256_in_prefix": "9e2f1f450ad6a84735fb4c17bec8c691366e114f19cf18f0609c30f2b7e2aaa4",
+        "size_in_bytes": 1076
+      },
+      {
+        "_path": "site-packages/snntorch-0.6.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "a9124f9ec28413f36edc241e28fb57a8278af037b5cdd67399bd5206a200ab31",
+        "sha256_in_prefix": "a9124f9ec28413f36edc241e28fb57a8278af037b5cdd67399bd5206a200ab31",
+        "size_in_bytes": 15908
+      },
+      {
+        "_path": "site-packages/snntorch-0.6.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "75321723ba0f23cbf8e4b744cc8684f01a0684a928dde3bf99523dca1cf570de",
+        "sha256_in_prefix": "75321723ba0f23cbf8e4b744cc8684f01a0684a928dde3bf99523dca1cf570de",
+        "size_in_bytes": 5920
+      },
+      {
+        "_path": "site-packages/snntorch-0.6.4.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/snntorch-0.6.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "6bece9151209cceab941fba10736e1880d5e1d3ccd0899fc39d46f85d357d119",
+        "sha256_in_prefix": "6bece9151209cceab941fba10736e1880d5e1d3ccd0899fc39d46f85d357d119",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/snntorch-0.6.4.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "70a87d9d4dc571a80da7ede93f8ef2bffd7285a5eee0e476c06dc01a837740d1",
+        "sha256_in_prefix": "70a87d9d4dc571a80da7ede93f8ef2bffd7285a5eee0e476c06dc01a837740d1",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/snntorch-0.6.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "1d954dfc9acb2340dc24c8fcec573911e1755a3e0d3e298e953968683a2ebacf",
+        "sha256_in_prefix": "1d954dfc9acb2340dc24c8fcec573911e1755a3e0d3e298e953968683a2ebacf",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/snntorch/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a57f214f1ca9352283b11cbbc57ca62b9c938085505a1bcdc6be9a9a0514e22e",
+        "sha256_in_prefix": "a57f214f1ca9352283b11cbbc57ca62b9c938085505a1bcdc6be9a9a0514e22e",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "site-packages/snntorch/_layers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "165d7b794fc24202d76a4dae19ce19febc0f2a4875947d513aca8cdaac20226b",
+        "sha256_in_prefix": "165d7b794fc24202d76a4dae19ce19febc0f2a4875947d513aca8cdaac20226b",
+        "size_in_bytes": 140
+      },
+      {
+        "_path": "site-packages/snntorch/_layers/bntt.py",
+        "path_type": "hardlink",
+        "sha256": "64f0f23324fbe0d5652e21ab22d3be0dfee51b33f60edd5d91af2f2a44d33f9b",
+        "sha256_in_prefix": "64f0f23324fbe0d5652e21ab22d3be0dfee51b33f60edd5d91af2f2a44d33f9b",
+        "size_in_bytes": 5333
+      },
+      {
+        "_path": "site-packages/snntorch/_layers/graded_spikes.py",
+        "path_type": "hardlink",
+        "sha256": "86bcee0deca9ffe61c6ea99b4484aa555e4528a36551b0191b594db11a320a0d",
+        "sha256_in_prefix": "86bcee0deca9ffe61c6ea99b4484aa555e4528a36551b0191b594db11a320a0d",
+        "size_in_bytes": 1084
+      },
+      {
+        "_path": "site-packages/snntorch/_neurons/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "9579ce17b5c39d3ba14b5f7eccc91d9fe8c750d658ecc6e3538a9d552febb61b",
+        "sha256_in_prefix": "9579ce17b5c39d3ba14b5f7eccc91d9fe8c750d658ecc6e3538a9d552febb61b",
+        "size_in_bytes": 1040
+      },
+      {
+        "_path": "site-packages/snntorch/_neurons/alpha.py",
+        "path_type": "hardlink",
+        "sha256": "e73fde7ff7e45e452cc009ac46b5535b95061381227804087bb9276da32488dd",
+        "sha256_in_prefix": "e73fde7ff7e45e452cc009ac46b5535b95061381227804087bb9276da32488dd",
+        "size_in_bytes": 11658
+      },
+      {
+        "_path": "site-packages/snntorch/_neurons/lapicque.py",
+        "path_type": "hardlink",
+        "sha256": "9d0daf1aa28f5656e7650ba7fb62a098f8db2245aa172bcca4c7f9879d5259fa",
+        "sha256_in_prefix": "9d0daf1aa28f5656e7650ba7fb62a098f8db2245aa172bcca4c7f9879d5259fa",
+        "size_in_bytes": 13769
+      },
+      {
+        "_path": "site-packages/snntorch/_neurons/leaky.py",
+        "path_type": "hardlink",
+        "sha256": "95b1c49f00ef19e78b17e5ca2fbee97f2ab756b0faaf6978cf3ff57da905e312",
+        "sha256_in_prefix": "95b1c49f00ef19e78b17e5ca2fbee97f2ab756b0faaf6978cf3ff57da905e312",
+        "size_in_bytes": 9673
+      },
+      {
+        "_path": "site-packages/snntorch/_neurons/neurons.py",
+        "path_type": "hardlink",
+        "sha256": "128548b084ef91ac3fecd4270dd790881df49c630be6c8768ec96dccfcb7d93e",
+        "sha256_in_prefix": "128548b084ef91ac3fecd4270dd790881df49c630be6c8768ec96dccfcb7d93e",
+        "size_in_bytes": 14635
+      },
+      {
+        "_path": "site-packages/snntorch/_neurons/rleaky.py",
+        "path_type": "hardlink",
+        "sha256": "ca1f9279b21c3133e5f72cfd36c48d213b40352555fd1ee0c9cd7aedbc33b556",
+        "sha256_in_prefix": "ca1f9279b21c3133e5f72cfd36c48d213b40352555fd1ee0c9cd7aedbc33b556",
+        "size_in_bytes": 18587
+      },
+      {
+        "_path": "site-packages/snntorch/_neurons/rsynaptic.py",
+        "path_type": "hardlink",
+        "sha256": "9b56e3573dd7db9a8f50e85366aa14ea13828b0cfbb65cf87d4f35a83af11244",
+        "sha256_in_prefix": "9b56e3573dd7db9a8f50e85366aa14ea13828b0cfbb65cf87d4f35a83af11244",
+        "size_in_bytes": 20919
+      },
+      {
+        "_path": "site-packages/snntorch/_neurons/sconv2dlstm.py",
+        "path_type": "hardlink",
+        "sha256": "b2301c6fdf111893f548ce838f5083e0c405a2c135bb08e062c87bffa887b0b7",
+        "sha256_in_prefix": "b2301c6fdf111893f548ce838f5083e0c405a2c135bb08e062c87bffa887b0b7",
+        "size_in_bytes": 17336
+      },
+      {
+        "_path": "site-packages/snntorch/_neurons/slstm.py",
+        "path_type": "hardlink",
+        "sha256": "edf7873217604945f9ed444899089bb8e1be3628321d5585a89aa0f8f29e8c12",
+        "sha256_in_prefix": "edf7873217604945f9ed444899089bb8e1be3628321d5585a89aa0f8f29e8c12",
+        "size_in_bytes": 12341
+      },
+      {
+        "_path": "site-packages/snntorch/_neurons/synaptic.py",
+        "path_type": "hardlink",
+        "sha256": "1bcacaf51537ef939cb1b2560aec31330ee34ddc816c1d3a645cdfc2552708f7",
+        "sha256_in_prefix": "1bcacaf51537ef939cb1b2560aec31330ee34ddc816c1d3a645cdfc2552708f7",
+        "size_in_bytes": 12542
+      },
+      {
+        "_path": "site-packages/snntorch/_version.py",
+        "path_type": "hardlink",
+        "sha256": "238dfe9a0fdb71117ce35df27ce5df2c7d3b46e2a92a38feffcbb3f0b7f5c478",
+        "sha256_in_prefix": "238dfe9a0fdb71117ce35df27ce5df2c7d3b46e2a92a38feffcbb3f0b7f5c478",
+        "size_in_bytes": 33
+      },
+      {
+        "_path": "site-packages/snntorch/backprop.py",
+        "path_type": "hardlink",
+        "sha256": "feb5a4af734a71fc43e917add6cdcd6a5c0db9034f7871c7fe9e39e03cdb413a",
+        "sha256_in_prefix": "feb5a4af734a71fc43e917add6cdcd6a5c0db9034f7871c7fe9e39e03cdb413a",
+        "size_in_bytes": 23630
+      },
+      {
+        "_path": "site-packages/snntorch/functional/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "cfe4e957794c6ed9c6477c3272412bcc0f20b90b779444fe09ff89b0189913a1",
+        "sha256_in_prefix": "cfe4e957794c6ed9c6477c3272412bcc0f20b90b779444fe09ff89b0189913a1",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/snntorch/functional/acc.py",
+        "path_type": "hardlink",
+        "sha256": "ea01f8e4d007df2a6cdfe98f8560392ac520f4b64029cdafb06ab3067f4d3b7c",
+        "sha256_in_prefix": "ea01f8e4d007df2a6cdfe98f8560392ac520f4b64029cdafb06ab3067f4d3b7c",
+        "size_in_bytes": 3200
+      },
+      {
+        "_path": "site-packages/snntorch/functional/loss.py",
+        "path_type": "hardlink",
+        "sha256": "e761ae387a80f86d01621b5e0644f263d39d2dab260c5043738bf6139f5efb35",
+        "sha256_in_prefix": "e761ae387a80f86d01621b5e0644f263d39d2dab260c5043738bf6139f5efb35",
+        "size_in_bytes": 29603
+      },
+      {
+        "_path": "site-packages/snntorch/functional/probe.py",
+        "path_type": "hardlink",
+        "sha256": "7522f7c1e84f4f497c4f376bc0d9d4c6521751e3d843d7a7d1b24f5908a6d629",
+        "sha256_in_prefix": "7522f7c1e84f4f497c4f376bc0d9d4c6521751e3d843d7a7d1b24f5908a6d629",
+        "size_in_bytes": 16762
+      },
+      {
+        "_path": "site-packages/snntorch/functional/quant.py",
+        "path_type": "hardlink",
+        "sha256": "3b9fbc5b1a273305239715a6686d97f753a5444c66bf3140987217b328d0b909",
+        "sha256_in_prefix": "3b9fbc5b1a273305239715a6686d97f753a5444c66bf3140987217b328d0b909",
+        "size_in_bytes": 9915
+      },
+      {
+        "_path": "site-packages/snntorch/functional/reg.py",
+        "path_type": "hardlink",
+        "sha256": "f7b7f1e171f7777d5cc7bc00514571211a4d07adea034caba2d0fd523455ef9e",
+        "sha256_in_prefix": "f7b7f1e171f7777d5cc7bc00514571211a4d07adea034caba2d0fd523455ef9e",
+        "size_in_bytes": 539
+      },
+      {
+        "_path": "site-packages/snntorch/functional/stdp_learner.py",
+        "path_type": "hardlink",
+        "sha256": "bc73b3fd44cdc2ad81753825f44adfda891186466ca4b5749fdbbe1ae5ab92cf",
+        "sha256_in_prefix": "bc73b3fd44cdc2ad81753825f44adfda891186466ca4b5749fdbbe1ae5ab92cf",
+        "size_in_bytes": 10354
+      },
+      {
+        "_path": "site-packages/snntorch/spikegen.py",
+        "path_type": "hardlink",
+        "sha256": "8111a7831dcbfcba4ac9f2c664a0aafe41b54eedc4c098022c764233f6a91623",
+        "sha256_in_prefix": "8111a7831dcbfcba4ac9f2c664a0aafe41b54eedc4c098022c764233f6a91623",
+        "size_in_bytes": 53547
+      },
+      {
+        "_path": "site-packages/snntorch/spikeplot.py",
+        "path_type": "hardlink",
+        "sha256": "6a5ac2116fb0f733ba97914b0e90a70eb3719f87f9c960b966925216ff31900e",
+        "sha256_in_prefix": "6a5ac2116fb0f733ba97914b0e90a70eb3719f87f9c960b966925216ff31900e",
+        "size_in_bytes": 14483
+      },
+      {
+        "_path": "site-packages/snntorch/spikevision/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "23c8a1a4255eecf4b4dd04bb157ffb56fee67a4bc3bda93ab73af34500dc8e4c",
+        "sha256_in_prefix": "23c8a1a4255eecf4b4dd04bb157ffb56fee67a4bc3bda93ab73af34500dc8e4c",
+        "size_in_bytes": 248
+      },
+      {
+        "_path": "site-packages/snntorch/spikevision/_transforms.py",
+        "path_type": "hardlink",
+        "sha256": "0128b8c5a10aa0ea6572aaaa6e09ab0079850b46a261edb579e97fbb10a51028",
+        "sha256_in_prefix": "0128b8c5a10aa0ea6572aaaa6e09ab0079850b46a261edb579e97fbb10a51028",
+        "size_in_bytes": 11370
+      },
+      {
+        "_path": "site-packages/snntorch/spikevision/_utils.py",
+        "path_type": "hardlink",
+        "sha256": "baefd9b5bf1273550894bbd3b869e98541547d15c293ad07bb9b0590a9146e61",
+        "sha256_in_prefix": "baefd9b5bf1273550894bbd3b869e98541547d15c293ad07bb9b0590a9146e61",
+        "size_in_bytes": 9843
+      },
+      {
+        "_path": "site-packages/snntorch/spikevision/events_timeslices.py",
+        "path_type": "hardlink",
+        "sha256": "7217838c1876de456bfeb233eda5725ed2d2a5693232a92a1792bb4004133f23",
+        "sha256_in_prefix": "7217838c1876de456bfeb233eda5725ed2d2a5693232a92a1792bb4004133f23",
+        "size_in_bytes": 4825
+      },
+      {
+        "_path": "site-packages/snntorch/spikevision/neuromorphic_dataset.py",
+        "path_type": "hardlink",
+        "sha256": "7318b7ea3d175cec8360e984e8e9e29da7b97407932a828fdc556bcf1c396b03",
+        "sha256_in_prefix": "7318b7ea3d175cec8360e984e8e9e29da7b97407932a828fdc556bcf1c396b03",
+        "size_in_bytes": 14388
+      },
+      {
+        "_path": "site-packages/snntorch/spikevision/spikedata/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3754bc51fdb5c6fea4bf0507a14bfabfca2e935c4e26f80a20d75681b8407a82",
+        "sha256_in_prefix": "3754bc51fdb5c6fea4bf0507a14bfabfca2e935c4e26f80a20d75681b8407a82",
+        "size_in_bytes": 128
+      },
+      {
+        "_path": "site-packages/snntorch/spikevision/spikedata/dvs_gesture.py",
+        "path_type": "hardlink",
+        "sha256": "e5730c0aa33359196ab9e46a8a47e2539748d2fb2c16a1aa53b0d5acc8ac2436",
+        "sha256_in_prefix": "e5730c0aa33359196ab9e46a8a47e2539748d2fb2c16a1aa53b0d5acc8ac2436",
+        "size_in_bytes": 13133
+      },
+      {
+        "_path": "site-packages/snntorch/spikevision/spikedata/nmnist.py",
+        "path_type": "hardlink",
+        "sha256": "3ecb6c17edb9dfda32ad1cf5bd2349ed8e4ec63cdbcb94632d82066261c59991",
+        "sha256_in_prefix": "3ecb6c17edb9dfda32ad1cf5bd2349ed8e4ec63cdbcb94632d82066261c59991",
+        "size_in_bytes": 14417
+      },
+      {
+        "_path": "site-packages/snntorch/spikevision/spikedata/shd.py",
+        "path_type": "hardlink",
+        "sha256": "38c9f2725ab72cbab44d830f785a85b6eb0ff0d20c669f07e491d51157725006",
+        "sha256_in_prefix": "38c9f2725ab72cbab44d830f785a85b6eb0ff0d20c669f07e491d51157725006",
+        "size_in_bytes": 10026
+      },
+      {
+        "_path": "site-packages/snntorch/surrogate.py",
+        "path_type": "hardlink",
+        "sha256": "fbd5821522edaf31900735dd656d04848b07cadbb2d6c89e50d8deed9a943362",
+        "sha256_in_prefix": "fbd5821522edaf31900735dd656d04848b07cadbb2d6c89e50d8deed9a943362",
+        "size_in_bytes": 20087
+      },
+      {
+        "_path": "site-packages/snntorch/utils.py",
+        "path_type": "hardlink",
+        "sha256": "5c7b524effe516803c4445f134431eb1eb4a0475c12087605fd290a6e34a5c79",
+        "sha256_in_prefix": "5c7b524effe516803c4445f134431eb1eb4a0475c12087605fd290a6e34a5c79",
+        "size_in_bytes": 7329
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/_layers/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/_layers/__pycache__/bntt.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/_layers/__pycache__/graded_spikes.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/_neurons/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/_neurons/__pycache__/alpha.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/_neurons/__pycache__/lapicque.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/_neurons/__pycache__/leaky.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/_neurons/__pycache__/neurons.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/_neurons/__pycache__/rleaky.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/_neurons/__pycache__/rsynaptic.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/_neurons/__pycache__/sconv2dlstm.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/_neurons/__pycache__/slstm.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/_neurons/__pycache__/synaptic.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/__pycache__/_version.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/__pycache__/backprop.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/functional/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/functional/__pycache__/acc.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/functional/__pycache__/loss.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/functional/__pycache__/probe.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/functional/__pycache__/quant.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/functional/__pycache__/reg.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/functional/__pycache__/stdp_learner.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/__pycache__/spikegen.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/__pycache__/spikeplot.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/spikevision/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/spikevision/__pycache__/_transforms.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/spikevision/__pycache__/_utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/spikevision/__pycache__/events_timeslices.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/spikevision/__pycache__/neuromorphic_dataset.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/spikevision/spikedata/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/spikevision/spikedata/__pycache__/dvs_gesture.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/spikevision/spikedata/__pycache__/nmnist.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/spikevision/spikedata/__pycache__/shd.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/__pycache__/surrogate.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/snntorch/__pycache__/utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "snntorch",
+  "sha256": "b4833220a864e579afa00bf6cc6549856f3757c7b2d2e68cbacc1fea88cfaa36",
+  "size": 78223,
+  "subdir": "noarch",
+  "timestamp": 1686236200934,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/snntorch-0.6.4-pyhd8ed1ab_0.conda",
+  "version": "0.6.4"
+}

@@ -5,7 +5,12 @@ import numpy as np
 import torch
 import torch.nn.functional as F
 from torch import nn
-
+import math
+import snntorch as snn
+from snntorch import utils
+beta = 0.5
+threshold = 1
+alpha = 0.9
 
 class Bottleneck(nn.Module):
     expansion = 4
@@ -17,6 +22,7 @@ class Bottleneck(nn.Module):
         self.conv1 = nn.Conv2d(inplanes, planes, 1, bias=False)
         self.bn1 = nn.BatchNorm2d(planes)
         self.relu1 = nn.ReLU(inplace=True)
+
 
         self.conv2 = nn.Conv2d(planes, planes, 3, padding=1, bias=False)
         self.bn2 = nn.BatchNorm2d(planes)
@@ -31,6 +37,10 @@ class Bottleneck(nn.Module):
         self.downsample = None
         self.stride = stride
 
+        self.lif = [snn.Synaptic(alpha=alpha, beta=beta, threshold=threshold, 
+                                reset_mechanism='subtract', init_hidden=True) for _ in range(3)]
+        self.lif_downsample = snn.Synaptic(alpha=alpha, beta=beta, threshold=threshold, 
+                                reset_mechanism='subtract', init_hidden=True)
         if stride > 1 or inplanes != planes * Bottleneck.expansion:
             # downsampling layer is prepended with an avgpool, and the subsequent convolution has stride 1
             self.downsample = nn.Sequential(OrderedDict([
@@ -43,17 +53,26 @@ class Bottleneck(nn.Module):
         identity = x
 
         out = self.relu1(self.bn1(self.conv1(x)))
+        out = self.lif[0](out)
         out = self.relu2(self.bn2(self.conv2(out)))
+        out = self.lif[1](out)
         out = self.avgpool(out)
         out = self.bn3(self.conv3(out))
 
         if self.downsample is not None:
             identity = self.downsample(x)
+            identity = self.lif_downsample(identity)
 
         out += identity
         out = self.relu3(out)
+        out = self.lif[2](out)
         return out
-
+    
+    def reset_hidden(self):
+        for res in self.lif:
+            res.reset_hidden()
+        if self.downsample is not None:
+            self.lif_downsample.reset_hidden()
 
 class AttentionPool2d(nn.Module):
     def __init__(self, spacial_dim: int, embed_dim: int, num_heads: int, output_dim: int = None):
@@ -63,34 +82,77 @@ class AttentionPool2d(nn.Module):
         self.q_proj = nn.Linear(embed_dim, embed_dim)
         self.v_proj = nn.Linear(embed_dim, embed_dim)
         self.c_proj = nn.Linear(embed_dim, output_dim or embed_dim)
+        self.k_lif = snn.Synaptic(alpha=alpha, beta=beta, threshold=threshold, reset_mechanism='subtract', init_hidden=True)
+        self.q_lif = snn.Synaptic(alpha=alpha, beta=beta, threshold=threshold, reset_mechanism='subtract', init_hidden=True)
+        self.v_lif = snn.Synaptic(alpha=alpha, beta=beta, threshold=threshold, reset_mechanism='subtract', init_hidden=True)
+        self.c_lif = snn.Synaptic(alpha=alpha, beta=beta, threshold=threshold, reset_mechanism='subtract', init_hidden=True)
         self.num_heads = num_heads
 
     def forward(self, x):
         x = x.flatten(start_dim=2).permute(2, 0, 1)  # NCHW -> (HW)NC
         x = torch.cat([x.mean(dim=0, keepdim=True), x], dim=0)  # (HW+1)NC
         x = x + self.positional_embedding[:, None, :].to(x.dtype)  # (HW+1)NC
-        x, _ = F.multi_head_attention_forward(
-            query=x[:1], key=x, value=x,
-            embed_dim_to_check=x.shape[-1],
-            num_heads=self.num_heads,
-            q_proj_weight=self.q_proj.weight,
-            k_proj_weight=self.k_proj.weight,
-            v_proj_weight=self.v_proj.weight,
-            in_proj_weight=None,
-            in_proj_bias=torch.cat([self.q_proj.bias, self.k_proj.bias, self.v_proj.bias]),
-            bias_k=None,
-            bias_v=None,
-            add_zero_attn=False,
-            dropout_p=0,
-            out_proj_weight=self.c_proj.weight,
-            out_proj_bias=self.c_proj.bias,
-            use_separate_proj_weight=True,
-            training=self.training,
-            need_weights=False
-        )
-        return x.squeeze(0)
+        # faker, _ = F.multi_head_attention_forward(
+        #     query=x[:1], key=x, value=x,
+        #     embed_dim_to_check=x.shape[-1],
+        #     num_heads=self.num_heads,
+        #     q_proj_weight=self.q_proj.weight,
+        #     k_proj_weight=self.k_proj.weight,
+        #     v_proj_weight=self.v_proj.weight,
+        #     in_proj_weight=None,
+        #     in_proj_bias=torch.cat([self.q_proj.bias, self.k_proj.bias, self.v_proj.bias]),
+        #     bias_k=None,
+        #     bias_v=None,
+        #     add_zero_attn=False,
+        #     dropout_p=0,
+        #     out_proj_weight=self.c_proj.weight,
+        #     out_proj_bias=self.c_proj.bias,
+        #     use_separate_proj_weight=True,
+        #     training=self.training,
+        #     need_weights=False
+        # )
+        # print(faker.shape)
+        # faker = self.c_lif(self.c_proj(faker))[0]
+        # print(faker.shape)
+
+        q_out = self.q_lif(self.q_proj(x[:1]))
+        k_out = self.k_lif(self.k_proj(x))
+        v_out = self.v_lif(self.v_proj(x))
+        src_len = k_out.size(0)
+        tgt_len, bsz, embed_dim = x[:1].shape
+        head_dim = embed_dim // self.num_heads
+
+        q_out = q_out.view(tgt_len, bsz * self.num_heads, head_dim).transpose(0, 1)
+        k_out = k_out.view(k_out.shape[0], bsz * self.num_heads, head_dim).transpose(0, 1)
+        v_out = v_out.view(v_out.shape[0], bsz * self.num_heads, head_dim).transpose(0, 1)
+        q_out = q_out.view(bsz, self.num_heads, tgt_len, head_dim)
+        k_out = k_out.view(bsz, self.num_heads, src_len, head_dim)
+        v_out = v_out.view(bsz, self.num_heads, src_len, head_dim)
+
+        attn_output = self.scaled_dot_product_attention(q_out, k_out, v_out)
+        attn_output = attn_output.permute(2, 0, 1, 3).contiguous().view(bsz * tgt_len, embed_dim)
+
+        
+        attn_output = attn_output.view(tgt_len, bsz, attn_output.size(1))
+        attn_output = self.c_lif(self.c_proj(attn_output))[0]
+        return attn_output.squeeze(0)
 
 
+
+    def reset_hidden(self):
+        self.k_lif.reset_hidden()
+        self.q_lif.reset_hidden()
+        self.v_lif.reset_hidden()
+        self.c_lif.reset_hidden()
+
+    def scaled_dot_product_attention(self, query, key, value, dropout_p=0.0) -> torch.Tensor:
+        # Efficient implementation equivalent to the following:
+        scale_factor = 1 / math.sqrt(query.size(-1))
+        attn_weight = query @ key.transpose(-2, -1) * scale_factor
+        attn_weight = torch.softmax(attn_weight, dim=-1)
+        attn_weight = torch.dropout(attn_weight, dropout_p, train=True)
+        return attn_weight @ value
+    
 class ModifiedResNet(nn.Module):
     """
     A ResNet class that is similar to torchvision's but contains the following changes:
@@ -116,6 +178,8 @@ class ModifiedResNet(nn.Module):
         self.relu3 = nn.ReLU(inplace=True)
         self.avgpool = nn.AvgPool2d(2)
 
+        self.lif_stem = [snn.Synaptic(alpha=alpha, beta=beta, threshold=threshold, 
+                                reset_mechanism='subtract', init_hidden=True) for _ in range(3)]
         # residual layers
         self._inplanes = width  # this is a *mutable* variable used during construction
         self.layer1 = self._make_layer(width, layers[0])
@@ -138,8 +202,11 @@ class ModifiedResNet(nn.Module):
     def forward(self, x):
         def stem(x):
             x = self.relu1(self.bn1(self.conv1(x)))
+            x = self.lif_stem[0](x)
             x = self.relu2(self.bn2(self.conv2(x)))
+            x = self.lif_stem[1](x)
             x = self.relu3(self.bn3(self.conv3(x)))
+            x = self.lif_stem[2](x)
             x = self.avgpool(x)
             return x
 
@@ -152,6 +219,18 @@ class ModifiedResNet(nn.Module):
         x = self.attnpool(x)
 
         return x
+    def reset_layer(self, layer):
+        for res in layer:
+            res.reset_hidden()
+
+    def reset_hidden(self):
+        for res in self.lif_stem:
+            res.reset_hidden()
+        self.reset_layer(self.layer1)
+        self.reset_layer(self.layer2)
+        self.reset_layer(self.layer3)
+        self.reset_layer(self.layer4)
+        self.attnpool.reset_hidden()
 
 
 class LayerNorm(nn.LayerNorm):
@@ -166,8 +245,7 @@ class LayerNorm(nn.LayerNorm):
 class QuickGELU(nn.Module):
     def forward(self, x: torch.Tensor):
         return x * torch.sigmoid(1.702 * x)
-
-
+    
 class ResidualAttentionBlock(nn.Module):
     def __init__(self, d_model: int, n_head: int, attn_mask: torch.Tensor = None):
         super().__init__()
@@ -177,7 +255,9 @@ class ResidualAttentionBlock(nn.Module):
         self.mlp = nn.Sequential(OrderedDict([
             ("c_fc", nn.Linear(d_model, d_model * 4)),
             ("gelu", QuickGELU()),
-            ("c_proj", nn.Linear(d_model * 4, d_model))
+            ("lif_fc", snn.Synaptic(alpha=alpha, beta=beta, threshold=threshold, reset_mechanism='subtract', init_hidden=True)),
+            ("c_proj", nn.Linear(d_model * 4, d_model)),
+            ("lif_proj", snn.Synaptic(alpha=alpha, beta=beta, threshold=threshold, reset_mechanism='subtract', init_hidden=True)),
         ]))
         self.ln_2 = LayerNorm(d_model)
         self.attn_mask = attn_mask
@@ -190,7 +270,9 @@ class ResidualAttentionBlock(nn.Module):
         x = x + self.attention(self.ln_1(x))
         x = x + self.mlp(self.ln_2(x))
         return x
-
+    
+    def reset_hidden(self):
+        utils.reset(self.mlp)
 
 class Transformer(nn.Module):
     def __init__(self, width: int, layers: int, heads: int, attn_mask: torch.Tensor = None):
@@ -201,6 +283,10 @@ class Transformer(nn.Module):
 
     def forward(self, x: torch.Tensor):
         return self.resblocks(x)
+    
+    def reset_hidden(self):
+        for res in self.resblocks:
+            res.reset_hidden()
 
 
 class VisionTransformer(nn.Module):
@@ -238,7 +324,9 @@ class VisionTransformer(nn.Module):
             x = x @ self.proj
 
         return x
-
+    
+    def reset_hidden(self):
+        self.transformer.reset_hidden()
 
 class CLIP(nn.Module):
     def __init__(self,
@@ -348,8 +436,20 @@ class CLIP(nn.Module):
     def dtype(self):
         return self.visual.conv1.weight.dtype
 
-    def encode_image(self, image):
+    def encode_image_(self, image):
         return self.visual(image.type(self.dtype))
+    
+    def reset_hidden(self):
+        self.visual.reset_hidden()
+
+    def encode_image(self, data):
+        device = data.device
+        spk_rec = torch.zeros((data.size(0), data.size(1), self.embed_dim)).to(device)
+        self.reset_hidden() # resets hidden states for all LIF neurons in model
+        for step in range(data.size(0)):  # data.size(0) = number of time steps
+            spk_out = self.visual(data[step])
+            spk_rec[step] = spk_out
+        return spk_rec.sum(dim=0)
 
     def encode_text(self, text):
         x = self.token_embedding(text).type(self.dtype)  # [batch_size, n_ctx, d_model]

@@ -119,3 +119,29 @@
 +pytorch/linux-64::torchvision-0.16.1-py310_cu118
 +pytorch/noarch::pytorch-mutex-1.0-cuda
 # update specs: ['torchvision', 'torchaudio', 'pytorch-cuda=11.8', 'pytorch']
+==> 2023-11-21 18:07:30 <==
+# cmd: /home/jacky/miniconda3/bin/conda install -c conda-forge snntorch tonic
+# conda version: 23.9.0
+-defaults/linux-64::certifi-2023.7.22-py310h06a4308_0
++conda-forge/linux-64::aedat-1.2.2-py310h3392aa1_2
++conda-forge/linux-64::kiwisolver-1.4.2-py310hbf28c38_1
++conda-forge/linux-64::libgfortran-ng-13.2.0-h69a702a_0
++conda-forge/linux-64::libgfortran5-13.2.0-ha4646dd_0
++conda-forge/linux-64::loris-0.5.3-py310h769672d_2
++conda-forge/linux-64::matplotlib-base-3.4.3-py310h23f4a51_2
++conda-forge/linux-64::pandas-1.4.2-py310h769672d_1
++conda-forge/linux-64::python_abi-3.10-2_cp310
++conda-forge/linux-64::tornado-6.1-py310h5764c6d_3
++conda-forge/noarch::certifi-2023.11.17-pyhd8ed1ab_0
++conda-forge/noarch::cycler-0.12.1-pyhd8ed1ab_0
++conda-forge/noarch::importrosbag-1.0.4-pyhd8ed1ab_0
++conda-forge/noarch::pyparsing-3.1.1-pyhd8ed1ab_0
++conda-forge/noarch::python-dateutil-2.8.2-pyhd8ed1ab_0
++conda-forge/noarch::pytz-2023.3.post1-pyhd8ed1ab_0
++conda-forge/noarch::six-1.16.0-pyh6c4a22f_0
++conda-forge/noarch::snntorch-0.6.4-pyhd8ed1ab_0
++conda-forge/noarch::tonic-1.0.12-pyhd8ed1ab_0
++defaults/linux-64::h5py-3.7.0-py310he06866b_0
++defaults/linux-64::hdf5-1.10.6-h3ffc7dd_1
++defaults/linux-64::scipy-1.11.3-py310h5f9d8c6_0
+# update specs: ['snntorch', 'tonic']

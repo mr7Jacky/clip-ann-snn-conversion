@@ -1,0 +1,615 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "h5py",
+    "importrosbag",
+    "loris",
+    "matplotlib-base",
+    "numpy",
+    "python >=3.6",
+    "scipy",
+    "tqdm",
+    "typing_extensions"
+  ],
+  "extracted_package_dir": "/home/jacky/miniconda3/pkgs/tonic-1.0.12-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.10/site-packages/tonic-1.0.12.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/tonic-1.0.12.dist-info/LICENSE.txt",
+    "lib/python3.10/site-packages/tonic-1.0.12.dist-info/METADATA",
+    "lib/python3.10/site-packages/tonic-1.0.12.dist-info/RECORD",
+    "lib/python3.10/site-packages/tonic-1.0.12.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/tonic-1.0.12.dist-info/WHEEL",
+    "lib/python3.10/site-packages/tonic-1.0.12.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/tonic-1.0.12.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/tonic/__init__.py",
+    "lib/python3.10/site-packages/tonic/cached_dataset.py",
+    "lib/python3.10/site-packages/tonic/collation.py",
+    "lib/python3.10/site-packages/tonic/dataset.py",
+    "lib/python3.10/site-packages/tonic/datasets/__init__.py",
+    "lib/python3.10/site-packages/tonic/datasets/asl_dvs.py",
+    "lib/python3.10/site-packages/tonic/datasets/davisdataset.py",
+    "lib/python3.10/site-packages/tonic/datasets/dsec.py",
+    "lib/python3.10/site-packages/tonic/datasets/dvsgesture.py",
+    "lib/python3.10/site-packages/tonic/datasets/hsd.py",
+    "lib/python3.10/site-packages/tonic/datasets/mvsec.py",
+    "lib/python3.10/site-packages/tonic/datasets/ncaltech101.py",
+    "lib/python3.10/site-packages/tonic/datasets/nmnist.py",
+    "lib/python3.10/site-packages/tonic/datasets/ntidigits.py",
+    "lib/python3.10/site-packages/tonic/datasets/pokerdvs.py",
+    "lib/python3.10/site-packages/tonic/datasets/s_mnist.py",
+    "lib/python3.10/site-packages/tonic/datasets/tum_vie.py",
+    "lib/python3.10/site-packages/tonic/datasets/visual_place_recognition.py",
+    "lib/python3.10/site-packages/tonic/download_utils.py",
+    "lib/python3.10/site-packages/tonic/functional/__init__.py",
+    "lib/python3.10/site-packages/tonic/functional/crop.py",
+    "lib/python3.10/site-packages/tonic/functional/denoise.py",
+    "lib/python3.10/site-packages/tonic/functional/drop_event.py",
+    "lib/python3.10/site-packages/tonic/functional/drop_pixel.py",
+    "lib/python3.10/site-packages/tonic/functional/refractory_period.py",
+    "lib/python3.10/site-packages/tonic/functional/slicing.py",
+    "lib/python3.10/site-packages/tonic/functional/spatial_jitter.py",
+    "lib/python3.10/site-packages/tonic/functional/time_jitter.py",
+    "lib/python3.10/site-packages/tonic/functional/time_skew.py",
+    "lib/python3.10/site-packages/tonic/functional/to_averaged_timesurface.py",
+    "lib/python3.10/site-packages/tonic/functional/to_frame.py",
+    "lib/python3.10/site-packages/tonic/functional/to_timesurface.py",
+    "lib/python3.10/site-packages/tonic/functional/to_voxel_grid.py",
+    "lib/python3.10/site-packages/tonic/io.py",
+    "lib/python3.10/site-packages/tonic/sliced_dataset.py",
+    "lib/python3.10/site-packages/tonic/slicers.py",
+    "lib/python3.10/site-packages/tonic/transforms.py",
+    "lib/python3.10/site-packages/tonic/utils.py",
+    "lib/python3.10/site-packages/tonic/version.py",
+    "lib/python3.10/site-packages/tonic/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/__pycache__/cached_dataset.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/__pycache__/collation.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/__pycache__/dataset.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/datasets/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/datasets/__pycache__/asl_dvs.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/datasets/__pycache__/davisdataset.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/datasets/__pycache__/dsec.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/datasets/__pycache__/dvsgesture.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/datasets/__pycache__/hsd.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/datasets/__pycache__/mvsec.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/datasets/__pycache__/ncaltech101.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/datasets/__pycache__/nmnist.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/datasets/__pycache__/ntidigits.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/datasets/__pycache__/pokerdvs.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/datasets/__pycache__/s_mnist.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/datasets/__pycache__/tum_vie.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/datasets/__pycache__/visual_place_recognition.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/__pycache__/download_utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/functional/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/functional/__pycache__/crop.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/functional/__pycache__/denoise.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/functional/__pycache__/drop_event.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/functional/__pycache__/drop_pixel.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/functional/__pycache__/refractory_period.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/functional/__pycache__/slicing.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/functional/__pycache__/spatial_jitter.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/functional/__pycache__/time_jitter.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/functional/__pycache__/time_skew.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/functional/__pycache__/to_averaged_timesurface.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/functional/__pycache__/to_frame.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/functional/__pycache__/to_timesurface.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/functional/__pycache__/to_voxel_grid.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/__pycache__/io.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/__pycache__/sliced_dataset.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/__pycache__/slicers.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/__pycache__/transforms.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/__pycache__/utils.cpython-310.pyc",
+    "lib/python3.10/site-packages/tonic/__pycache__/version.cpython-310.pyc"
+  ],
+  "fn": "tonic-1.0.12-pyhd8ed1ab_0.tar.bz2",
+  "license": "GPL-3.0-or-later",
+  "license_family": "GPL",
+  "link": {
+    "source": "/home/jacky/miniconda3/pkgs/tonic-1.0.12-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "e906ba434b7b3bc9c180e0e459ace5e5",
+  "name": "tonic",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/jacky/miniconda3/pkgs/tonic-1.0.12-pyhd8ed1ab_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/tonic-1.0.12.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/tonic-1.0.12.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+        "sha256_in_prefix": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+        "size_in_bytes": 35149
+      },
+      {
+        "_path": "site-packages/tonic-1.0.12.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "87e4044fc28740ae111676da4fadd0751dc5af851bf85b3926dfbc0f7c506ba9",
+        "sha256_in_prefix": "87e4044fc28740ae111676da4fadd0751dc5af851bf85b3926dfbc0f7c506ba9",
+        "size_in_bytes": 4693
+      },
+      {
+        "_path": "site-packages/tonic-1.0.12.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "3b9387d731817efb95568990023cb012d13ad8ebd9eaa0b89e9556fb68c5d220",
+        "sha256_in_prefix": "3b9387d731817efb95568990023cb012d13ad8ebd9eaa0b89e9556fb68c5d220",
+        "size_in_bytes": 6057
+      },
+      {
+        "_path": "site-packages/tonic-1.0.12.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tonic-1.0.12.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "sha256_in_prefix": "7b0c04b9e8a8d42d977874ef4f5ee7f1d6542603afc82582b7459534b0a53fda",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/tonic-1.0.12.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "6fd9557c791c987646a96bec565aba3a110383f15ba33232170325fb46eb46e3",
+        "sha256_in_prefix": "6fd9557c791c987646a96bec565aba3a110383f15ba33232170325fb46eb46e3",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "site-packages/tonic-1.0.12.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "6b2a06c12ed137a4138f151625eb66643998c9e0f8e83d7675529b4b8436db25",
+        "sha256_in_prefix": "6b2a06c12ed137a4138f151625eb66643998c9e0f8e83d7675529b4b8436db25",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "site-packages/tonic/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "000e38ec6de123e785b56b146230a366a2429162388b13893f9d812368cb2238",
+        "sha256_in_prefix": "000e38ec6de123e785b56b146230a366a2429162388b13893f9d812368cb2238",
+        "size_in_bytes": 223
+      },
+      {
+        "_path": "site-packages/tonic/cached_dataset.py",
+        "path_type": "hardlink",
+        "sha256": "f06a860217a32769c53bbc7c0af25953f8f9ca41fcadf0b0c68c55ae1f5f3dfa",
+        "sha256_in_prefix": "f06a860217a32769c53bbc7c0af25953f8f9ca41fcadf0b0c68c55ae1f5f3dfa",
+        "size_in_bytes": 6221
+      },
+      {
+        "_path": "site-packages/tonic/collation.py",
+        "path_type": "hardlink",
+        "sha256": "f28317bf5990d39d190376c78dd2840a460cac45e5425c2ebcc558ed31d4792e",
+        "sha256_in_prefix": "f28317bf5990d39d190376c78dd2840a460cac45e5425c2ebcc558ed31d4792e",
+        "size_in_bytes": 1451
+      },
+      {
+        "_path": "site-packages/tonic/dataset.py",
+        "path_type": "hardlink",
+        "sha256": "63542e4a27347efc04d3927b80513ff23bbdd988513e48e17044f3a6ddb8d821",
+        "sha256_in_prefix": "63542e4a27347efc04d3927b80513ff23bbdd988513e48e17044f3a6ddb8d821",
+        "size_in_bytes": 2042
+      },
+      {
+        "_path": "site-packages/tonic/datasets/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d1eec8849cf119f65e495f81da5322a4a154b7a00219ccc7fdff933b03d941be",
+        "sha256_in_prefix": "d1eec8849cf119f65e495f81da5322a4a154b7a00219ccc7fdff933b03d941be",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "site-packages/tonic/datasets/asl_dvs.py",
+        "path_type": "hardlink",
+        "sha256": "b46c1332b74e652d0c776e6ee74afdb51c45882f64ae927ca1f3e95f553ab1ce",
+        "sha256_in_prefix": "b46c1332b74e652d0c776e6ee74afdb51c45882f64ae927ca1f3e95f553ab1ce",
+        "size_in_bytes": 3319
+      },
+      {
+        "_path": "site-packages/tonic/datasets/davisdataset.py",
+        "path_type": "hardlink",
+        "sha256": "f52ecf9d006457e71814d067018fa643796275bc1e1586b937f6c2f278f55543",
+        "sha256_in_prefix": "f52ecf9d006457e71814d067018fa643796275bc1e1586b937f6c2f278f55543",
+        "size_in_bytes": 6171
+      },
+      {
+        "_path": "site-packages/tonic/datasets/dsec.py",
+        "path_type": "hardlink",
+        "sha256": "3c5c26275b08533bfc504dee59c66d2b269aa2017f990764519f68d8547fe49e",
+        "sha256_in_prefix": "3c5c26275b08533bfc504dee59c66d2b269aa2017f990764519f68d8547fe49e",
+        "size_in_bytes": 10246
+      },
+      {
+        "_path": "site-packages/tonic/datasets/dvsgesture.py",
+        "path_type": "hardlink",
+        "sha256": "e3296ff2997cf3222de1e320eb75eb6e693ff38f4ecdd74c495a8eaae4f933e7",
+        "sha256_in_prefix": "e3296ff2997cf3222de1e320eb75eb6e693ff38f4ecdd74c495a8eaae4f933e7",
+        "size_in_bytes": 4121
+      },
+      {
+        "_path": "site-packages/tonic/datasets/hsd.py",
+        "path_type": "hardlink",
+        "sha256": "f1a405423d1b5eb4a947cc3cf077d691123dc8b007c15be04b7ab055aa4411da",
+        "sha256_in_prefix": "f1a405423d1b5eb4a947cc3cf077d691123dc8b007c15be04b7ab055aa4411da",
+        "size_in_bytes": 5934
+      },
+      {
+        "_path": "site-packages/tonic/datasets/mvsec.py",
+        "path_type": "hardlink",
+        "sha256": "935a6034a67bf6bc7c82588649120553540a7476b224fb57bfb5eb5b5c9d1f16",
+        "sha256_in_prefix": "935a6034a67bf6bc7c82588649120553540a7476b224fb57bfb5eb5b5c9d1f16",
+        "size_in_bytes": 7415
+      },
+      {
+        "_path": "site-packages/tonic/datasets/ncaltech101.py",
+        "path_type": "hardlink",
+        "sha256": "030bd202fca25311b92076d7d0d63c7209bca0cc55f9df2a5972bdc68fba8b00",
+        "sha256_in_prefix": "030bd202fca25311b92076d7d0d63c7209bca0cc55f9df2a5972bdc68fba8b00",
+        "size_in_bytes": 2903
+      },
+      {
+        "_path": "site-packages/tonic/datasets/nmnist.py",
+        "path_type": "hardlink",
+        "sha256": "2009fcf93005975119a29c24db211a313bb7e39fc694406e9aed2493d740965c",
+        "sha256_in_prefix": "2009fcf93005975119a29c24db211a313bb7e39fc694406e9aed2493d740965c",
+        "size_in_bytes": 3692
+      },
+      {
+        "_path": "site-packages/tonic/datasets/ntidigits.py",
+        "path_type": "hardlink",
+        "sha256": "226e45ad13cbe71661defd88291175bbfaa7c4872c1211d732786ab2fd13d27a",
+        "sha256_in_prefix": "226e45ad13cbe71661defd88291175bbfaa7c4872c1211d732786ab2fd13d27a",
+        "size_in_bytes": 3306
+      },
+      {
+        "_path": "site-packages/tonic/datasets/pokerdvs.py",
+        "path_type": "hardlink",
+        "sha256": "7bc0609528ab499b97ecf051d86ed3e1254d10a95421a365be19c47dbd1064f0",
+        "sha256_in_prefix": "7bc0609528ab499b97ecf051d86ed3e1254d10a95421a365be19c47dbd1064f0",
+        "size_in_bytes": 3250
+      },
+      {
+        "_path": "site-packages/tonic/datasets/s_mnist.py",
+        "path_type": "hardlink",
+        "sha256": "842fcc45d85c7af64d4102b3c96ed8297ec765d5a7770f47cdd6a575cfdae857",
+        "sha256_in_prefix": "842fcc45d85c7af64d4102b3c96ed8297ec765d5a7770f47cdd6a575cfdae857",
+        "size_in_bytes": 7687
+      },
+      {
+        "_path": "site-packages/tonic/datasets/tum_vie.py",
+        "path_type": "hardlink",
+        "sha256": "8bac86b1a7e666d989e73e9a267b90446db81ffcf6d1dc33d7901e789b155d4a",
+        "sha256_in_prefix": "8bac86b1a7e666d989e73e9a267b90446db81ffcf6d1dc33d7901e789b155d4a",
+        "size_in_bytes": 8617
+      },
+      {
+        "_path": "site-packages/tonic/datasets/visual_place_recognition.py",
+        "path_type": "hardlink",
+        "sha256": "b8b39d153cbf6fb9a3a5fd41500510a530bc7d0e2bb1303efc9c66f8705d18e4",
+        "sha256_in_prefix": "b8b39d153cbf6fb9a3a5fd41500510a530bc7d0e2bb1303efc9c66f8705d18e4",
+        "size_in_bytes": 7143
+      },
+      {
+        "_path": "site-packages/tonic/download_utils.py",
+        "path_type": "hardlink",
+        "sha256": "d3aa7a37668170e3c7eb93de01503368ed370e6c5b0774b9afc1b95bc7b359d7",
+        "sha256_in_prefix": "d3aa7a37668170e3c7eb93de01503368ed370e6c5b0774b9afc1b95bc7b359d7",
+        "size_in_bytes": 11033
+      },
+      {
+        "_path": "site-packages/tonic/functional/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "90aced81b9cf95ac5baf3ed5c215cb58163e324fa0b5010fbb0f9fccc7ea4e63",
+        "sha256_in_prefix": "90aced81b9cf95ac5baf3ed5c215cb58163e324fa0b5010fbb0f9fccc7ea4e63",
+        "size_in_bytes": 1004
+      },
+      {
+        "_path": "site-packages/tonic/functional/crop.py",
+        "path_type": "hardlink",
+        "sha256": "462956473a93d2713d4f1a4922eaee66ed6021c473ace78b18a6cbc91e6593a6",
+        "sha256_in_prefix": "462956473a93d2713d4f1a4922eaee66ed6021c473ace78b18a6cbc91e6593a6",
+        "size_in_bytes": 1166
+      },
+      {
+        "_path": "site-packages/tonic/functional/denoise.py",
+        "path_type": "hardlink",
+        "sha256": "fdccb9d2c437d022a8376a1bc0b7207eaae1cf99340d6935d97cc3cb066fa253",
+        "sha256_in_prefix": "fdccb9d2c437d022a8376a1bc0b7207eaae1cf99340d6935d97cc3cb066fa253",
+        "size_in_bytes": 1507
+      },
+      {
+        "_path": "site-packages/tonic/functional/drop_event.py",
+        "path_type": "hardlink",
+        "sha256": "f9dcc2b1f4f02e112f51ea94493c31cffb056dd0902e6b270a0e5d995318f4df",
+        "sha256_in_prefix": "f9dcc2b1f4f02e112f51ea94493c31cffb056dd0902e6b270a0e5d995318f4df",
+        "size_in_bytes": 796
+      },
+      {
+        "_path": "site-packages/tonic/functional/drop_pixel.py",
+        "path_type": "hardlink",
+        "sha256": "ccb19334e1eeb8b633f164f8c4cd7ac6299f4dc41623189619ad1c6e6ff48dff",
+        "sha256_in_prefix": "ccb19334e1eeb8b633f164f8c4cd7ac6299f4dc41623189619ad1c6e6ff48dff",
+        "size_in_bytes": 1916
+      },
+      {
+        "_path": "site-packages/tonic/functional/refractory_period.py",
+        "path_type": "hardlink",
+        "sha256": "9843d4fd8dfdfb7f92a625f6005153f9a1d892b67da15bd0464322a4ae12d61d",
+        "sha256_in_prefix": "9843d4fd8dfdfb7f92a625f6005153f9a1d892b67da15bd0464322a4ae12d61d",
+        "size_in_bytes": 1175
+      },
+      {
+        "_path": "site-packages/tonic/functional/slicing.py",
+        "path_type": "hardlink",
+        "sha256": "b14eb1a915905ee34d21c736a41f099b6b647bc1c40bafc6f1df4714509e5774",
+        "sha256_in_prefix": "b14eb1a915905ee34d21c736a41f099b6b647bc1c40bafc6f1df4714509e5774",
+        "size_in_bytes": 5076
+      },
+      {
+        "_path": "site-packages/tonic/functional/spatial_jitter.py",
+        "path_type": "hardlink",
+        "sha256": "487bcf9ed3f721e6f139a3270a3dc1b07d05927fa3e0d02521ffd3758b0682ed",
+        "sha256_in_prefix": "487bcf9ed3f721e6f139a3270a3dc1b07d05927fa3e0d02521ffd3758b0682ed",
+        "size_in_bytes": 1685
+      },
+      {
+        "_path": "site-packages/tonic/functional/time_jitter.py",
+        "path_type": "hardlink",
+        "sha256": "b414a6496c2c6e80275dea55a2964c4983b6acfef1607f540a924a50c8ad3454",
+        "sha256_in_prefix": "b414a6496c2c6e80275dea55a2964c4983b6acfef1607f540a924a50c8ad3454",
+        "size_in_bytes": 944
+      },
+      {
+        "_path": "site-packages/tonic/functional/time_skew.py",
+        "path_type": "hardlink",
+        "sha256": "0777876d7c4abaa83bb8d18a4b59c38c3540e6e6cce051b6a66e10dd97d40fdd",
+        "sha256_in_prefix": "0777876d7c4abaa83bb8d18a4b59c38c3540e6e6cce051b6a66e10dd97d40fdd",
+        "size_in_bytes": 971
+      },
+      {
+        "_path": "site-packages/tonic/functional/to_averaged_timesurface.py",
+        "path_type": "hardlink",
+        "sha256": "d5f657d4702ba365f1d4e4197f663093c49d528f5ee203450cf0cd2a6420efd2",
+        "sha256_in_prefix": "d5f657d4702ba365f1d4e4197f663093c49d528f5ee203450cf0cd2a6420efd2",
+        "size_in_bytes": 5162
+      },
+      {
+        "_path": "site-packages/tonic/functional/to_frame.py",
+        "path_type": "hardlink",
+        "sha256": "d7cc8b581c76c7e4b5682bc21b98cae737bfd3ac3182e109fd529733e8f9b1b7",
+        "sha256_in_prefix": "d7cc8b581c76c7e4b5682bc21b98cae737bfd3ac3182e109fd529733e8f9b1b7",
+        "size_in_bytes": 3333
+      },
+      {
+        "_path": "site-packages/tonic/functional/to_timesurface.py",
+        "path_type": "hardlink",
+        "sha256": "ed91513533c28bd12726d4c8d0ea8d532cf23b20f97f4c7863ac31e8ede495d8",
+        "sha256_in_prefix": "ed91513533c28bd12726d4c8d0ea8d532cf23b20f97f4c7863ac31e8ede495d8",
+        "size_in_bytes": 2381
+      },
+      {
+        "_path": "site-packages/tonic/functional/to_voxel_grid.py",
+        "path_type": "hardlink",
+        "sha256": "70d77162c33d5c3997c223db899507daf3fcd175111963cecbccd222b4fe62fc",
+        "sha256_in_prefix": "70d77162c33d5c3997c223db899507daf3fcd175111963cecbccd222b4fe62fc",
+        "size_in_bytes": 1968
+      },
+      {
+        "_path": "site-packages/tonic/io.py",
+        "path_type": "hardlink",
+        "sha256": "aa8e2e4d680ffae6ed18f5f4f6ce14d4934d1d538b5e219fc0e48917fae1067c",
+        "sha256_in_prefix": "aa8e2e4d680ffae6ed18f5f4f6ce14d4934d1d538b5e219fc0e48917fae1067c",
+        "size_in_bytes": 7106
+      },
+      {
+        "_path": "site-packages/tonic/sliced_dataset.py",
+        "path_type": "hardlink",
+        "sha256": "fafb68652a8f19a65e8c71fe4522a27c0dd8b3ae89e574e366b569ff7d2305f4",
+        "sha256_in_prefix": "fafb68652a8f19a65e8c71fe4522a27c0dd8b3ae89e574e366b569ff7d2305f4",
+        "size_in_bytes": 3628
+      },
+      {
+        "_path": "site-packages/tonic/slicers.py",
+        "path_type": "hardlink",
+        "sha256": "b172b846159df05ff38f3213c07b3f293c3d01382a30f123c6f57ca3e5f2ddc3",
+        "sha256_in_prefix": "b172b846159df05ff38f3213c07b3f293c3d01382a30f123c6f57ca3e5f2ddc3",
+        "size_in_bytes": 5971
+      },
+      {
+        "_path": "site-packages/tonic/transforms.py",
+        "path_type": "hardlink",
+        "sha256": "de51e72ec4be648266b223f205b4abc35e572b11c252cde3f63437f00f4a71a8",
+        "sha256_in_prefix": "de51e72ec4be648266b223f205b4abc35e572b11c252cde3f63437f00f4a71a8",
+        "size_in_bytes": 20287
+      },
+      {
+        "_path": "site-packages/tonic/utils.py",
+        "path_type": "hardlink",
+        "sha256": "36c35c6193755cf7ddcec0d681d600a29b4008f826a87df6c56b3171c5ddacd0",
+        "sha256_in_prefix": "36c35c6193755cf7ddcec0d681d600a29b4008f826a87df6c56b3171c5ddacd0",
+        "size_in_bytes": 1850
+      },
+      {
+        "_path": "site-packages/tonic/version.py",
+        "path_type": "hardlink",
+        "sha256": "8cf93b7d0c3eafb65fe9663d7c6b5d7c4741a764c71681eae757894afe069d0c",
+        "sha256_in_prefix": "8cf93b7d0c3eafb65fe9663d7c6b5d7c4741a764c71681eae757894afe069d0c",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/__pycache__/cached_dataset.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/__pycache__/collation.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/__pycache__/dataset.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/datasets/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/datasets/__pycache__/asl_dvs.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/datasets/__pycache__/davisdataset.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/datasets/__pycache__/dsec.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/datasets/__pycache__/dvsgesture.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/datasets/__pycache__/hsd.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/datasets/__pycache__/mvsec.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/datasets/__pycache__/ncaltech101.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/datasets/__pycache__/nmnist.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/datasets/__pycache__/ntidigits.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/datasets/__pycache__/pokerdvs.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/datasets/__pycache__/s_mnist.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/datasets/__pycache__/tum_vie.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/datasets/__pycache__/visual_place_recognition.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/__pycache__/download_utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/functional/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/functional/__pycache__/crop.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/functional/__pycache__/denoise.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/functional/__pycache__/drop_event.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/functional/__pycache__/drop_pixel.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/functional/__pycache__/refractory_period.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/functional/__pycache__/slicing.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/functional/__pycache__/spatial_jitter.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/functional/__pycache__/time_jitter.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/functional/__pycache__/time_skew.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/functional/__pycache__/to_averaged_timesurface.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/functional/__pycache__/to_frame.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/functional/__pycache__/to_timesurface.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/functional/__pycache__/to_voxel_grid.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/__pycache__/io.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/__pycache__/sliced_dataset.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/__pycache__/slicers.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/__pycache__/transforms.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/__pycache__/utils.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/tonic/__pycache__/version.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "tonic",
+  "sha256": "61585215f2ad5f28c0a1fb31110675222904a5497d404c878981c4216b762cdd",
+  "size": 60954,
+  "subdir": "noarch",
+  "timestamp": 1639679522333,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/tonic-1.0.12-pyhd8ed1ab_0.tar.bz2",
+  "version": "1.0.12"
+}

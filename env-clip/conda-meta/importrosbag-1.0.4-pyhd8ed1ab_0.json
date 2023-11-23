@@ -1,0 +1,311 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "numpy",
+    "python >=3.6",
+    "setuptools",
+    "tqdm"
+  ],
+  "extracted_package_dir": "/home/jacky/miniconda3/pkgs/importrosbag-1.0.4-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.10/site-packages/importRosbag-1.0.4.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/importRosbag-1.0.4.dist-info/LICENSE.txt",
+    "lib/python3.10/site-packages/importRosbag-1.0.4.dist-info/METADATA",
+    "lib/python3.10/site-packages/importRosbag-1.0.4.dist-info/RECORD",
+    "lib/python3.10/site-packages/importRosbag-1.0.4.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/importRosbag-1.0.4.dist-info/WHEEL",
+    "lib/python3.10/site-packages/importRosbag-1.0.4.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/importRosbag-1.0.4.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/importRosbag/__init__.py",
+    "lib/python3.10/site-packages/importRosbag/importRosbag.py",
+    "lib/python3.10/site-packages/importRosbag/messageTypes/common.py",
+    "lib/python3.10/site-packages/importRosbag/messageTypes/dvs_msgs_EventArray.py",
+    "lib/python3.10/site-packages/importRosbag/messageTypes/esim_msgs_OpticFlow.py",
+    "lib/python3.10/site-packages/importRosbag/messageTypes/geometry_msgs_PoseStamped.py",
+    "lib/python3.10/site-packages/importRosbag/messageTypes/geometry_msgs_Transform.py",
+    "lib/python3.10/site-packages/importRosbag/messageTypes/geometry_msgs_TransformStamped.py",
+    "lib/python3.10/site-packages/importRosbag/messageTypes/geometry_msgs_TwistStamped.py",
+    "lib/python3.10/site-packages/importRosbag/messageTypes/nav_msgs_Odometry.py",
+    "lib/python3.10/site-packages/importRosbag/messageTypes/sensor_msgs_CameraInfo.py",
+    "lib/python3.10/site-packages/importRosbag/messageTypes/sensor_msgs_Illuminance.py",
+    "lib/python3.10/site-packages/importRosbag/messageTypes/sensor_msgs_Image.py",
+    "lib/python3.10/site-packages/importRosbag/messageTypes/sensor_msgs_Imu.py",
+    "lib/python3.10/site-packages/importRosbag/messageTypes/sensor_msgs_PointCloud2.py",
+    "lib/python3.10/site-packages/importRosbag/messageTypes/tf_tfMessage.py",
+    "lib/python3.10/site-packages/importRosbag/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/importRosbag/__pycache__/importRosbag.cpython-310.pyc",
+    "lib/python3.10/site-packages/importRosbag/messageTypes/__pycache__/common.cpython-310.pyc",
+    "lib/python3.10/site-packages/importRosbag/messageTypes/__pycache__/dvs_msgs_EventArray.cpython-310.pyc",
+    "lib/python3.10/site-packages/importRosbag/messageTypes/__pycache__/esim_msgs_OpticFlow.cpython-310.pyc",
+    "lib/python3.10/site-packages/importRosbag/messageTypes/__pycache__/geometry_msgs_PoseStamped.cpython-310.pyc",
+    "lib/python3.10/site-packages/importRosbag/messageTypes/__pycache__/geometry_msgs_Transform.cpython-310.pyc",
+    "lib/python3.10/site-packages/importRosbag/messageTypes/__pycache__/geometry_msgs_TransformStamped.cpython-310.pyc",
+    "lib/python3.10/site-packages/importRosbag/messageTypes/__pycache__/geometry_msgs_TwistStamped.cpython-310.pyc",
+    "lib/python3.10/site-packages/importRosbag/messageTypes/__pycache__/nav_msgs_Odometry.cpython-310.pyc",
+    "lib/python3.10/site-packages/importRosbag/messageTypes/__pycache__/sensor_msgs_CameraInfo.cpython-310.pyc",
+    "lib/python3.10/site-packages/importRosbag/messageTypes/__pycache__/sensor_msgs_Illuminance.cpython-310.pyc",
+    "lib/python3.10/site-packages/importRosbag/messageTypes/__pycache__/sensor_msgs_Image.cpython-310.pyc",
+    "lib/python3.10/site-packages/importRosbag/messageTypes/__pycache__/sensor_msgs_Imu.cpython-310.pyc",
+    "lib/python3.10/site-packages/importRosbag/messageTypes/__pycache__/sensor_msgs_PointCloud2.cpython-310.pyc",
+    "lib/python3.10/site-packages/importRosbag/messageTypes/__pycache__/tf_tfMessage.cpython-310.pyc"
+  ],
+  "fn": "importrosbag-1.0.4-pyhd8ed1ab_0.conda",
+  "license": "GPL-3.0-or-later",
+  "license_family": "GPL",
+  "link": {
+    "source": "/home/jacky/miniconda3/pkgs/importrosbag-1.0.4-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "a6eecb2ef9237a1ca7da7f4ab5797a9b",
+  "name": "importrosbag",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/jacky/miniconda3/pkgs/importrosbag-1.0.4-pyhd8ed1ab_0",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/importRosbag-1.0.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/importRosbag-1.0.4.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "0c2cd73032db70a575438bc65d581723cab375f6906eedb7d6ecb9ba4300c8ab",
+        "sha256_in_prefix": "0c2cd73032db70a575438bc65d581723cab375f6906eedb7d6ecb9ba4300c8ab",
+        "size_in_bytes": 692
+      },
+      {
+        "_path": "site-packages/importRosbag-1.0.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "027f5db7ac8d9e8bac619b91f097c0d1c521898b05f8e7f068a0b5b6b394d1a9",
+        "sha256_in_prefix": "027f5db7ac8d9e8bac619b91f097c0d1c521898b05f8e7f068a0b5b6b394d1a9",
+        "size_in_bytes": 4322
+      },
+      {
+        "_path": "site-packages/importRosbag-1.0.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "0484509fc0ec836c9412cdfaa9e1d0d66e5cf465c86d537099a2a5cbd55e4c5b",
+        "sha256_in_prefix": "0484509fc0ec836c9412cdfaa9e1d0d66e5cf465c86d537099a2a5cbd55e4c5b",
+        "size_in_bytes": 3566
+      },
+      {
+        "_path": "site-packages/importRosbag-1.0.4.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/importRosbag-1.0.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "sha256_in_prefix": "c903798389a0e00c9b4639208bef72cb889010589b1909a5cfbf0f8a4e4eafe0",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/importRosbag-1.0.4.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "0f353ad48537c9ba4f44576431b25f386a7a84f9f87a2993e95ee6feffaf19f9",
+        "sha256_in_prefix": "0f353ad48537c9ba4f44576431b25f386a7a84f9f87a2993e95ee6feffaf19f9",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "site-packages/importRosbag-1.0.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "9d548e308025f44e67f5a2788a733b8c5a8b623b9dd8cdaf01a750565fbb3a70",
+        "sha256_in_prefix": "9d548e308025f44e67f5a2788a733b8c5a8b623b9dd8cdaf01a750565fbb3a70",
+        "size_in_bytes": 13
+      },
+      {
+        "_path": "site-packages/importRosbag/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/importRosbag/importRosbag.py",
+        "path_type": "hardlink",
+        "sha256": "e7894932d2e6c5960491882dbbbabe3f0eb2ef7742dd87dfe54af4c91c24b57b",
+        "sha256_in_prefix": "e7894932d2e6c5960491882dbbbabe3f0eb2ef7742dd87dfe54af4c91c24b57b",
+        "size_in_bytes": 11568
+      },
+      {
+        "_path": "site-packages/importRosbag/messageTypes/common.py",
+        "path_type": "hardlink",
+        "sha256": "43db1bd383d8199179d10cb676ae4f32b178ddb61006b23afa5fbea47ef48c85",
+        "sha256_in_prefix": "43db1bd383d8199179d10cb676ae4f32b178ddb61006b23afa5fbea47ef48c85",
+        "size_in_bytes": 2258
+      },
+      {
+        "_path": "site-packages/importRosbag/messageTypes/dvs_msgs_EventArray.py",
+        "path_type": "hardlink",
+        "sha256": "49e8cfce251fd96e58d7b9267f796340f72e8ff9acab8b89ac823ce49094c818",
+        "sha256_in_prefix": "49e8cfce251fd96e58d7b9267f796340f72e8ff9acab8b89ac823ce49094c818",
+        "size_in_bytes": 3272
+      },
+      {
+        "_path": "site-packages/importRosbag/messageTypes/esim_msgs_OpticFlow.py",
+        "path_type": "hardlink",
+        "sha256": "c6525f10ea8a1643886c6ed84e0d0c8be6cb2bcc44f9680875081a1f498631a0",
+        "sha256_in_prefix": "c6525f10ea8a1643886c6ed84e0d0c8be6cb2bcc44f9680875081a1f498631a0",
+        "size_in_bytes": 2609
+      },
+      {
+        "_path": "site-packages/importRosbag/messageTypes/geometry_msgs_PoseStamped.py",
+        "path_type": "hardlink",
+        "sha256": "06c8c53d36ae76021ab66297054058d7d1016d1e8602fd7b6466e8f12425e31f",
+        "sha256_in_prefix": "06c8c53d36ae76021ab66297054058d7d1016d1e8602fd7b6466e8f12425e31f",
+        "size_in_bytes": 2856
+      },
+      {
+        "_path": "site-packages/importRosbag/messageTypes/geometry_msgs_Transform.py",
+        "path_type": "hardlink",
+        "sha256": "5cd0903248f02d5a9e5e2d8d80cfb1ebb52fc5443d0acea0fb65bc3843317069",
+        "sha256_in_prefix": "5cd0903248f02d5a9e5e2d8d80cfb1ebb52fc5443d0acea0fb65bc3843317069",
+        "size_in_bytes": 2714
+      },
+      {
+        "_path": "site-packages/importRosbag/messageTypes/geometry_msgs_TransformStamped.py",
+        "path_type": "hardlink",
+        "sha256": "65555e6611e108993bc84039b1c687421d1f0c7030f4a18de51a9f774ee43fa4",
+        "sha256_in_prefix": "65555e6611e108993bc84039b1c687421d1f0c7030f4a18de51a9f774ee43fa4",
+        "size_in_bytes": 2913
+      },
+      {
+        "_path": "site-packages/importRosbag/messageTypes/geometry_msgs_TwistStamped.py",
+        "path_type": "hardlink",
+        "sha256": "8466c5449a93499247754dc894c9b7d1924e3d0e5b5f0ab6a418f6221e65914a",
+        "sha256_in_prefix": "8466c5449a93499247754dc894c9b7d1924e3d0e5b5f0ab6a418f6221e65914a",
+        "size_in_bytes": 2452
+      },
+      {
+        "_path": "site-packages/importRosbag/messageTypes/nav_msgs_Odometry.py",
+        "path_type": "hardlink",
+        "sha256": "ebc1b418fe54b9cdec69328d5357d31ca5fcd553a7f71cc10415333d6af08a84",
+        "sha256_in_prefix": "ebc1b418fe54b9cdec69328d5357d31ca5fcd553a7f71cc10415333d6af08a84",
+        "size_in_bytes": 2838
+      },
+      {
+        "_path": "site-packages/importRosbag/messageTypes/sensor_msgs_CameraInfo.py",
+        "path_type": "hardlink",
+        "sha256": "037dd1624aad5eb67cc9b4d6f6e090938805a5262a7df28a52b39b543956ed11",
+        "sha256_in_prefix": "037dd1624aad5eb67cc9b4d6f6e090938805a5262a7df28a52b39b543956ed11",
+        "size_in_bytes": 2830
+      },
+      {
+        "_path": "site-packages/importRosbag/messageTypes/sensor_msgs_Illuminance.py",
+        "path_type": "hardlink",
+        "sha256": "99116466b027a0891fff7426b4d620c9d49ed383b8a143c0aec2996a896d3668",
+        "sha256_in_prefix": "99116466b027a0891fff7426b4d620c9d49ed383b8a143c0aec2996a896d3668",
+        "size_in_bytes": 2565
+      },
+      {
+        "_path": "site-packages/importRosbag/messageTypes/sensor_msgs_Image.py",
+        "path_type": "hardlink",
+        "sha256": "0473354dfb25071db3e7cbf3625f50f1e4f266bcf3267d39222e0d2d55e8a781",
+        "sha256_in_prefix": "0473354dfb25071db3e7cbf3625f50f1e4f266bcf3267d39222e0d2d55e8a781",
+        "size_in_bytes": 4239
+      },
+      {
+        "_path": "site-packages/importRosbag/messageTypes/sensor_msgs_Imu.py",
+        "path_type": "hardlink",
+        "sha256": "cbfd88c00d027b0f0aa97b96feeb396da38aafb06d5663f06a055c116edf8e09",
+        "sha256_in_prefix": "cbfd88c00d027b0f0aa97b96feeb396da38aafb06d5663f06a055c116edf8e09",
+        "size_in_bytes": 3702
+      },
+      {
+        "_path": "site-packages/importRosbag/messageTypes/sensor_msgs_PointCloud2.py",
+        "path_type": "hardlink",
+        "sha256": "2a104497958ad3ca90c1200512ad44bb0aee99f25aade98f92d00e4c41795f72",
+        "sha256_in_prefix": "2a104497958ad3ca90c1200512ad44bb0aee99f25aade98f92d00e4c41795f72",
+        "size_in_bytes": 4009
+      },
+      {
+        "_path": "site-packages/importRosbag/messageTypes/tf_tfMessage.py",
+        "path_type": "hardlink",
+        "sha256": "26cad9cb15c4dbb3295e3ef097839d8323a866f09f4cd55532f9238c5adb66cf",
+        "sha256_in_prefix": "26cad9cb15c4dbb3295e3ef097839d8323a866f09f4cd55532f9238c5adb66cf",
+        "size_in_bytes": 3419
+      },
+      {
+        "_path": "lib/python3.10/site-packages/importRosbag/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/importRosbag/__pycache__/importRosbag.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/importRosbag/messageTypes/__pycache__/common.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/importRosbag/messageTypes/__pycache__/dvs_msgs_EventArray.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/importRosbag/messageTypes/__pycache__/esim_msgs_OpticFlow.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/importRosbag/messageTypes/__pycache__/geometry_msgs_PoseStamped.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/importRosbag/messageTypes/__pycache__/geometry_msgs_Transform.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/importRosbag/messageTypes/__pycache__/geometry_msgs_TransformStamped.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/importRosbag/messageTypes/__pycache__/geometry_msgs_TwistStamped.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/importRosbag/messageTypes/__pycache__/nav_msgs_Odometry.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/importRosbag/messageTypes/__pycache__/sensor_msgs_CameraInfo.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/importRosbag/messageTypes/__pycache__/sensor_msgs_Illuminance.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/importRosbag/messageTypes/__pycache__/sensor_msgs_Image.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/importRosbag/messageTypes/__pycache__/sensor_msgs_Imu.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/importRosbag/messageTypes/__pycache__/sensor_msgs_PointCloud2.cpython-310.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.10/site-packages/importRosbag/messageTypes/__pycache__/tf_tfMessage.cpython-310.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "df78bf560c53563a2b6cb0d434897f396c44c298cdcf4f02920ed5a7fcc9dd55",
+  "size": 18519,
+  "subdir": "noarch",
+  "timestamp": 1693775633635,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/importrosbag-1.0.4-pyhd8ed1ab_0.conda",
+  "version": "1.0.4"
+}
